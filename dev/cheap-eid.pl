@@ -95,6 +95,8 @@ while(<>) {
         doentry({'src' => $1, 'pos' => $2, 'trg' => $3, 'gen' => $4});
     } elsif(m!<entry><title xml:space="preserve"><src>([^<]*)</src>, <label>([^<]*)</label> +<label>([^<]*)</label>:? +<trg>([^<]*)</trg>\.</title></entry>!) {
         doentry({'src' => $1, 'pos' => $2, 'trg' => $4, 'label' => $3});
+    } elsif(m!<entry><title xml:space="preserve"><src>([^<]*)</src>, <label>([^<]*)</label> +<label>([^<]*)</label>:? +<trg>([^<]*)<label>([mf])</label></trg>\.</title></entry>!) {
+        doentry({'src' => $1, 'pos' => $2, 'trg' => $4, 'label' => $3, 'gen' => $5});
     } else {
 #        print FILTERED $_;
     }
@@ -159,7 +161,7 @@ sub writeentry {
         print " r=\"RL\"";
     }
     if(exists $$entry{'label'}) {
-        print " v=\"" . $$entry{'label'} . "\"";
+        print " c=\"" . $$entry{'label'} . "\"";
     }
     print "><p><l>$src<s n=\"$pos\"/>";
     if(exists $$entry{'num'} && $$entry{'num'} eq 'pl') {
