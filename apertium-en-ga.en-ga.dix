@@ -987,6 +987,7 @@
     <e><p><l>biological<s n="adj"/></l><r>bitheolaíoch<s n="adj"/></r></p></e>
     <e><p><l>biologist<s n="n"/></l><r>bitheolaí<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biology<s n="n"/></l><r>bitheolaíocht<s n="n"/><s n="f"/></r></p></e>
+    <e v="El.E"><p><l>biphase<s n="adj"/></l><r>déphasach<s n="adj"/></r></p></e>
     <e><p><l>biplane<s n="n"/></l><r>déphlána<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bipolar<s n="adj"/></l><r>dépholach<s n="adj"/></r></p></e>
     <e><p><l>biquadratic<s n="adj"/></l><r>déchearnach<s n="adj"/></r></p></e>
@@ -1094,6 +1095,7 @@
     <e><p><l>boracic<s n="adj"/></l><r>bórásach<s n="adj"/></r></p></e>
     <e><p><l>borax<s n="n"/></l><r>bórás<s n="n"/><s n="m"/></r></p></e>
     <e v="Bot:"><p><l>bordered<s n="adj"/></l><r>liopach<s n="adj"/></r></p></e>
+    <e v="Ch"><p><l>boric<s n="adj"/></l><r>bórach<s n="adj"/></r></p></e>
     <e><p><l>bornite<s n="n"/></l><r>boirnít<s n="n"/></r></p></e>
     <e><p><l>boron<s n="n"/></l><r>bórón<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>borrower<s n="n"/></l><r>iasachtaí<s n="n"/><s n="m"/></r></p></e>
@@ -5948,7 +5950,7 @@
     <e><p><l>long-tailed<s n="adj"/></l><r>fadeireaballach<s n="adj"/></r></p></e>
     <e><p><l>long-term<s n="adj"/></l><r>fadtréimhseach<s n="adj"/></r></p></e>
     <e><p><l>loofah<s n="n"/></l><r>lúfach<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>look after<s n=""/></l><r>tugaim aire do<s n=""/></r></p></e>
+    <e><p><l>look after<s n="vblex"/></l><r>tugaim aire do<s n="vblex"/></r></p></e>
     <e><p><l>-looking<s n="adj"/></l><r>-bhreathnaitheach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>-looking<s n="adj"/></l><r>-ghnéitheach<s n="adj"/></r></p></e>
     <e><p><l>looking-glass<s n="n"/></l><r>scáthán<s n="n"/><s n="m"/></r></p></e>
@@ -6590,8 +6592,6 @@
     <e r="RL"><p><l>mouldy<s n="adj"/></l><r>faoi choincleacha<s n="adj"/></r></p></e>
     <e><p><l>mountaineering<s n="n"/></l><r>sléibhteoireacht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mountainous<s n="adj"/></l><r>sléibhteach<s n="adj"/></r></p></e>
-    <e><p><l>mourn<s n=""/></l><r>caoinim<s n=""/></r></p></e>
-    <e r="RL"><p><l>mourn<s n=""/></l><r>déanaim mairgneach<s n=""/></r></p></e>
     <e><p><l>mouse-catcher<s n="n"/></l><r>luchaire<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mouser<s n="n"/></l><r>luchaire<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>moustache<s n="n"/></l><r>croiméal<s n="n"/><s n="m"/></r></p></e>
@@ -9229,12 +9229,10 @@
     <e><p><l>sedge<s n="n"/></l><r>cíb<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sedgy<s n="adj"/></l><r>cíbeach<s n="adj"/></r></p></e>
     <e><p><l>sedimentary<s n="adj"/></l><r>dríodair<s n="adj"/></r></p></e>
-    <e><p><l>see about<s n=""/></l><r>féachaim i ndiaidh<s n=""/></r></p></e>
+    <e><p><l>see about<s n="vblex"/></l><r>féachaim i ndiaidh<s n="vblex"/></r></p></e>
     <e><p><l>seeder<s n="n"/></l><r>síoladóir<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>seedsman<s n="n"/></l><r>síoladóir<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>seek after<s n=""/></l><r>tá tóir agam ar<s n=""/></r></p></e>
-    <e><p><l>seek for<s n=""/></l><r>cuardaím<s n=""/></r></p></e>
-    <e r="RL"><p><l>seek for<s n=""/></l><r>lorgaím<s n=""/></r></p></e>
+    <e><p><l>seek after<s n="vblex"/></l><r>tá tóir agam ar<s n="vblex"/></r></p></e>
     <e><p><l>seek out<s n="vblex"/></l><r>déanaim amach<s n="vblex"/></r></p></e>
     <e><p><l>seep<s n="vblex"/></l><r>sileann púscann<s n="vblex"/></r></p></e>
     <e><p><l>seigniorial<s n="adj"/></l><r>tiarnasach<s n="adj"/></r></p></e>
@@ -10485,12 +10483,7 @@
     <e><p><l>swarthiness<s n="n"/></l><r>cróine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>swarthy<s n="adj"/></l><r>crón<s n="adj"/></r></p></e>
     <e><p><l>swastika<s n="n"/></l><r>svaistíce<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>swear at<s n=""/></l><r>cuirim mallacht<s n=""/></r></p></e>
-    <e r="RL"><p><l>swear at<s n=""/></l><r>eascaine<s n=""/></r></p></e>
-    <e r="RL"><p><l>swear at<s n=""/></l><r>ar<s n=""/></r></p></e>
     <e><p><l>swear off<s n="vblex"/></l><r>mionnaím staonadh ó<s n="vblex"/></r></p></e>
-    <e><p><l>swear to<s n=""/></l><r>tugaim an leabhar i<s n=""/></r></p></e>
-    <e r="RL"><p><l>swear to<s n=""/></l><r>m'fhocal le<s n=""/></r></p></e>
     <e><p><l>swear-word<s n="n"/></l><r>mionn mór<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>swear-word<s n="n"/></l><r>eascaine<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sweated<s n="adj"/></l><r>leatromach<s n="adj"/></r></p></e>
