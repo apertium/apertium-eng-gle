@@ -27,10 +27,10 @@
     <e r="RL"><p><l>abiding<s n="adj"/></l><r>seasmhach<s n="adj"/></r></p></e>
     <e><p><l>abigail<s n="n"/></l><r>bean choimhdeachta<s n="n"/></r></p></e>
     <e><p><l>ablaze<s n="adv"/></l><r>ar scoite lasrach<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>ablaze<s n=""/></l><r>ar scoite lasrach<s n=""/></r></p></e>
+    <e><p><l>ablaze<s n=""/></l><r>ar scoite lasrach<s n=""/></r></p></e>
     <e><p><l>abloom<s n="adv"/></l><r>i mbláth<s n="adv"/></r></p></e>
     <e r="RL"><p><l>abloom<s n="adv"/></l><r>faoi bhláth<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>abloom<s n=""/></l><r>i mbláth<s n=""/></r></p></e>
+    <e><p><l>abloom<s n=""/></l><r>i mbláth<s n=""/></r></p></e>
     <e r="RL"><p><l>abloom<s n=""/></l><r>faoi bhláth<s n=""/></r></p></e>
     <e><p><l>abolish<s n=""/></l><r>díobhaim<s n=""/></r></p></e>
     <e r="RL"><p><l>abolish<s n=""/></l><r>cuirim ar ceal<s n=""/></r></p></e>
@@ -87,7 +87,7 @@
     <e r="RL"><p><l>adorn<s n=""/></l><r>ornaím<s n=""/></r></p></e>
     <e><p><l>adrenal<s n="adj"/></l><r>aidréineach<s n="adj"/></r></p></e>
     <e><p><l>Adriatic<s n="adj"/></l><r>Aidriad<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>Adriatic<s n="n"/></l><r>Aidriad<s n="n"/></r></p></e>
+    <e><p><l>Adriatic<s n="n"/></l><r>Aidriad<s n="n"/></r></p></e>
     <e v="Ph"><p><l>adsorb<s n=""/></l><r>asúnn<s n=""/></r></p></e>
     <e><p><l>adulatory<s n="adj"/></l><r>bladarach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>adulatory<s n="adj"/></l><r>plámásach<s n="adj"/></r></p></e>
@@ -111,9 +111,9 @@
     <e r="RL"><p><l>afflictive<s n="adj"/></l><r>dórainneach<s n="adj"/></r></p></e>
     <e><p><l>affranchise<s n=""/></l><r>saoraim<s n=""/></r></p></e>
     <e><p><l>afire<s n="adv"/></l><r>trí thine<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>afire<s n=""/></l><r>trí thine<s n=""/></r></p></e>
+    <e><p><l>afire<s n=""/></l><r>trí thine<s n=""/></r></p></e>
     <e><p><l>aflame<s n="adv"/></l><r>ar scaite lasrach<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>aflame<s n=""/></l><r>ar scaite lasrach<s n=""/></r></p></e>
+    <e><p><l>aflame<s n=""/></l><r>ar scaite lasrach<s n=""/></r></p></e>
     <e><p><l>afresh<s n="adv"/></l><r>as an nua<s n="adv"/></r></p></e>
     <e><p><l>after-mentioned<s n="adj"/></l><r>thíosluaite<s n="adj"/></r></p></e>
     <e r="RL"><p><l>after-mentioned<s n="adj"/></l><r>thíos<s n="adj"/></r></p></e>
@@ -123,7 +123,7 @@
     <e><p><l>aft-gate<s n="n"/></l><r>comhla chúil<s n="n"/></r></p></e>
     <e v="Biol"><p><l>agamous<s n="adj"/></l><r>agamúil<s n="adj"/></r></p></e>
     <e><p><l>agape<s n="adv"/></l><r>béaloscailte<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>agape<s n=""/></l><r>béaloscailte<s n=""/></r></p></e>
+    <e><p><l>agape<s n=""/></l><r>béaloscailte<s n=""/></r></p></e>
     <e><p><l>aghast<s n=""/></l><r>scanraithe<s n=""/></r></p></e>
     <e><p><l>agitated<s n="adj"/></l><r>tógtha<s n="adj"/></r></p></e>
     <e r="RL"><p><l>agitated<s n="adj"/></l><r>bainte<s n="adj"/></r></p></e>
@@ -153,7 +153,7 @@
     <e><p><l>aleatory<s n="adj"/></l><r>taismeach<s n="adj"/></r></p></e>
     <e><p><l>alfresco<s n="adj"/></l><r>amuigh faoin aer<s n="adj"/></r></p></e>
     <e r="RL"><p><l>alfresco<s n="adj"/></l><r>faoin spéir<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>alfresco<s n="adv"/></l><r>amuigh faoin aer<s n="adv"/></r></p></e>
+    <e><p><l>alfresco<s n="adv"/></l><r>amuigh faoin aer<s n="adv"/></r></p></e>
     <e r="RL"><p><l>alfresco<s n="adv"/></l><r>faoin spéir<s n="adv"/></r></p></e>
     <e><p><l>alienable<s n="adj"/></l><r>inaistrithe<s n="adj"/></r></p></e>
     <e r="RL"><p><l>alienable<s n="adj"/></l><r>inchoimhthithe<s n="adj"/></r></p></e>
@@ -261,7 +261,7 @@
     <e><p><l>anti-bacterial<s n="adj"/></l><r>frithbhaictéireach<s n="adj"/></r></p></e>
     <e><p><l>anticlerical<s n="adj"/></l><r>frithchléireach<s n="adj"/></r></p></e>
     <e><p><l>anti-clockwise<s n="adv"/></l><r>tuathal<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>anti-clockwise<s n=""/></l><r>tuathal<s n=""/></r></p></e>
+    <e><p><l>anti-clockwise<s n=""/></l><r>tuathal<s n=""/></r></p></e>
     <e><p><l>anti-dazzle<s n="adj"/></l><r>frithdhallta<s n="adj"/></r></p></e>
     <e><p><l>anti-freezing<s n="adj"/></l><r>frithreoite<s n="adj"/></r></p></e>
     <e><p><l>anti-knock<s n="adj"/></l><r>cnagchoscach<s n="adj"/></r></p></e>
@@ -300,7 +300,7 @@
     <e r="RL"><p><l>arched<s n="adj"/></l><r>dronnach<s n="adj"/></r></p></e>
     <e><p><l>arch-<s n="adj"/></l><r>ard-<s n="adj"/></r></p></e>
     <e r="RL"><p><l>arch-<s n="adj"/></l><r>dearg-<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>arch-<s n=""/></l><r>ard-<s n=""/></r></p></e>
+    <e><p><l>arch-<s n=""/></l><r>ard-<s n=""/></r></p></e>
     <e r="RL"><p><l>arch-<s n=""/></l><r>dearg-<s n=""/></r></p></e>
     <e><p><l>archaic<s n="adj"/></l><r>Ársa<s n="adj"/></r></p></e>
     <e r="RL"><p><l>archaic<s n="adj"/></l><r>seanda<s n="adj"/></r></p></e>
@@ -356,16 +356,16 @@
     <e r="RL"><p><l>astounding<s n="adj"/></l><r>millteanach<s n="adj"/></r></p></e>
     <e><p><l>astraddle<s n="adv"/></l><r>ar scaradh gabhail (ar rud)<s n="adv"/></r></p></e>
     <e r="RL"><p><l>astraddle<s n="adv"/></l><r>i gcois dá leith<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>astraddle<s n=""/></l><r>ar scaradh gabhail (ar rud)<s n=""/></r></p></e>
+    <e><p><l>astraddle<s n=""/></l><r>ar scaradh gabhail (ar rud)<s n=""/></r></p></e>
     <e r="RL"><p><l>astraddle<s n=""/></l><r>i gcois dá leith<s n=""/></r></p></e>
     <e><p><l>astral<s n="adj"/></l><r>réaltach<s n="adj"/></r></p></e>
     <e><p><l>astride<s n="adv"/></l><r>ar scaradh gabhail<s n="adv"/></r></p></e>
     <e r="RL"><p><l>astride<s n="adv"/></l><r>i gcois dá leith<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>astride<s n=""/></l><r>ar scaradh gabhail<s n=""/></r></p></e>
+    <e><p><l>astride<s n=""/></l><r>ar scaradh gabhail<s n=""/></r></p></e>
     <e r="RL"><p><l>astride<s n=""/></l><r>i gcois dá leith<s n=""/></r></p></e>
-    <e r="RL"><p><l>astride<s n=""/></l><r>ar scaradh gabhail<s n=""/></r></p></e>
+    <e><p><l>astride<s n=""/></l><r>ar scaradh gabhail<s n=""/></r></p></e>
     <e r="RL"><p><l>astride<s n=""/></l><r>i gcois dá leith<s n=""/></r></p></e>
-    <e r="RL"><p><l>astride<s n=""/></l><r>ar scaradh gabhail<s n=""/></r></p></e>
+    <e><p><l>astride<s n=""/></l><r>ar scaradh gabhail<s n=""/></r></p></e>
     <e r="RL"><p><l>astride<s n=""/></l><r>i gcois dá leith<s n=""/></r></p></e>
     <e><p><l>astrological<s n="adj"/></l><r>astralaíoch<s n="adj"/></r></p></e>
     <e><p><l>atavistic<s n="adj"/></l><r>athdhúchasach<s n="adj"/></r></p></e>
@@ -380,7 +380,7 @@
     <e r="RL"><p><l>attaint<s n=""/></l><r>eisreachnaím<s n=""/></r></p></e>
     <e><p><l>attenuate<s n=""/></l><r>tanaím<s n=""/></r></p></e>
     <e r="RL"><p><l>attenuate<s n=""/></l><r>caolaím<s n=""/></r></p></e>
-    <e r="RL"><p><l>attenuate<s n=""/></l><r>tanaím<s n=""/></r></p></e>
+    <e><p><l>attenuate<s n=""/></l><r>tanaím<s n=""/></r></p></e>
     <e r="RL"><p><l>attenuate<s n=""/></l><r>caolaím<s n=""/></r></p></e>
     <e><p><l>attitudinize<s n=""/></l><r>cuirim gothaí<s n=""/></r></p></e>
     <e r="RL"><p><l>attitudinize<s n=""/></l><r>stiúir<s n=""/></r></p></e>
@@ -426,7 +426,7 @@
     <e><p><l>barbituric<s n="adj"/></l><r>barbatúrach<s n="adj"/></r></p></e>
     <e><p><l>barefooted<s n="adj"/></l><r>cosnochta<s n="adj"/></r></p></e>
     <e><p><l>bare-legged<s n="adj"/></l><r>lomloirgneach<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>bare-legged<s n="adv"/></l><r>lomloirgneach<s n="adv"/></r></p></e>
+    <e><p><l>bare-legged<s n="adv"/></l><r>lomloirgneach<s n="adv"/></r></p></e>
     <e><p><l>barrel-vault<s n="n"/></l><r>boghta cruinn<s n="n"/></r></p></e>
     <e><p><l>basaltic<s n="adj"/></l><r>basaltach<s n="adj"/></r></p></e>
     <e><p><l>bass-wood<s n="n"/></l><r>teileog mheiriceá<s n="n"/></r></p></e>
@@ -513,7 +513,7 @@
     <e><p><l>bob down<s n=""/></l><r>cromaim go tapaidh<s n=""/></r></p></e>
     <e><p><l>bob up<s n=""/></l><r>Éirím aníos go tobann<s n=""/></r></p></e>
     <e><p><l>bode<s n=""/></l><r>tuaraim<s n=""/></r></p></e>
-    <e r="RL"><p><l>bode<s n=""/></l><r>tuaraim<s n=""/></r></p></e>
+    <e><p><l>bode<s n=""/></l><r>tuaraim<s n=""/></r></p></e>
     <e><p><l>body-colour<s n="n"/></l><r>dath tathagach<s n="n"/></r></p></e>
     <e><p><l>bog-oak<s n="n"/></l><r>dair dhubh<s n="n"/></r></p></e>
     <e><p><l>bogus<s n="adj"/></l><r>bréagach<s n="adj"/></r></p></e>
@@ -523,7 +523,7 @@
     <e r="RL"><p><l>bombard<s n=""/></l><r>tuairgneálaim<s n=""/></r></p></e>
     <e><p><l>bomb-proof<s n="adj"/></l><r>buamadhíonach<s n="adj"/></r></p></e>
     <e><p><l>bona fide<s n="adj"/></l><r>bona fide<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>bona fide<s n="adv"/></l><r>bona fide<s n="adv"/></r></p></e>
+    <e><p><l>bona fide<s n="adv"/></l><r>bona fide<s n="adv"/></r></p></e>
     <e><p><l>bonfire<s n="n"/></l><r>tine chnámh<s n="n"/></r></p></e>
     <e><p><l>bootleg<s n=""/></l><r>smuglálaim alcól<s n=""/></r></p></e>
     <e><p><l>boracic<s n="adj"/></l><r>bórásach<s n="adj"/></r></p></e>
@@ -563,7 +563,7 @@
     <e><p><l>broad-bottomed<s n="adj"/></l><r>leathantónach<s n="adj"/></r></p></e>
     <e><p><l>broad-brimmed<s n="adj"/></l><r>leathanduilleach<s n="adj"/></r></p></e>
     <e><p><l>broaden<s n=""/></l><r>leathnaím<s n=""/></r></p></e>
-    <e r="RL"><p><l>broaden<s n=""/></l><r>leathnaím<s n=""/></r></p></e>
+    <e><p><l>broaden<s n=""/></l><r>leathnaím<s n=""/></r></p></e>
     <e><p><l>broad-leaved<s n="adj"/></l><r>leathanduilleach<s n="adj"/></r></p></e>
     <e><p><l>broad-shouldered<s n="adj"/></l><r>leathanghuailleach<s n="adj"/></r></p></e>
     <e><p><l>bronchial<s n="adj"/></l><r>broncach<s n="adj"/></r></p></e>
@@ -892,7 +892,7 @@
     <e><p><l>co-axial<s n="adj"/></l><r>comhaiseach<s n="adj"/></r></p></e>
     <e><p><l>cock-a-hoop<s n="adj"/></l><r>lúcháireach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>cock-a-hoop<s n="adj"/></l><r>(go) bladhmannach<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>cock-a-hoop<s n="adv"/></l><r>lúcháireach<s n="adv"/></r></p></e>
+    <e><p><l>cock-a-hoop<s n="adv"/></l><r>lúcháireach<s n="adv"/></r></p></e>
     <e r="RL"><p><l>cock-a-hoop<s n="adv"/></l><r>(go) bladhmannach<s n="adv"/></r></p></e>
     <e><p><l>cock-sure<s n="adj"/></l><r>stradúsach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>cock-sure<s n="adj"/></l><r>róchinnte<s n="adj"/></r></p></e>
@@ -938,7 +938,7 @@
     <e><p><l>commandeer<s n=""/></l><r>gabhaim<s n=""/></r></p></e>
     <e r="RL"><p><l>commandeer<s n=""/></l><r>éigním<s n=""/></r></p></e>
     <e><p><l>commence<s n=""/></l><r>tosaím<s n=""/></r></p></e>
-    <e r="RL"><p><l>commence<s n=""/></l><r>tosaím<s n=""/></r></p></e>
+    <e><p><l>commence<s n=""/></l><r>tosaím<s n=""/></r></p></e>
     <e><p><l>commendable<s n="adj"/></l><r>inmholta<s n="adj"/></r></p></e>
     <e><p><l>commendatory<s n="adj"/></l><r>moltach<s n="adj"/></r></p></e>
     <e><p><l>comminatory<s n="adj"/></l><r>bagrach<s n="adj"/></r></p></e>
@@ -1329,7 +1329,7 @@
     <e><p><l>definable<s n="adj"/></l><r>insonraithe<s n="adj"/></r></p></e>
     <e r="RL"><p><l>definable<s n="adj"/></l><r>inteoranta<s n="adj"/></r></p></e>
     <e><p><l>deflagrate<s n=""/></l><r>grodloisceann<s n=""/></r></p></e>
-    <e r="RL"><p><l>deflagrate<s n=""/></l><r>grodloisceann<s n=""/></r></p></e>
+    <e><p><l>deflagrate<s n=""/></l><r>grodloisceann<s n=""/></r></p></e>
     <e><p><l>defoliate<s n=""/></l><r>bainim duilleoga<s n=""/></r></p></e>
     <e><p><l>deform<s n=""/></l><r>míchumaim<s n=""/></r></p></e>
     <e r="RL"><p><l>deform<s n=""/></l><r>cuirim ó chuma<s n=""/></r></p></e>
@@ -1468,7 +1468,7 @@
     <e><p><l>dewy<s n="adj"/></l><r>drúchtmhar<s n="adj"/></r></p></e>
     <e r="RL"><p><l>dewy<s n="adj"/></l><r>braonach<s n="adj"/></r></p></e>
     <e><p><l>dexter<s n="adj"/></l><r>deas<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>dexter<s n="n"/></l><r>deas<s n="n"/></r></p></e>
+    <e><p><l>dexter<s n="n"/></l><r>deas<s n="n"/></r></p></e>
     <e v="Gram"><p><l>diacritical<s n="adj"/></l><r>idirdhealaitheach<s n="adj"/></r></p></e>
     <e><p><l>diagnose<s n=""/></l><r>fáithmheasaim<s n=""/></r></p></e>
     <e r="RL"><p><l>diagnose<s n=""/></l><r>déanaim tátal ar<s n=""/></r></p></e>
@@ -1510,7 +1510,7 @@
     <e r="RL"><p><l>dilly-dally<s n=""/></l><r>ag longadán<s n=""/></r></p></e>
     <e><p><l>dimensional<s n="adj"/></l><r>toiseach<s n="adj"/></r></p></e>
     <e><p><l>diminish<s n=""/></l><r>laghdaíonn<s n=""/></r></p></e>
-    <e r="RL"><p><l>diminish<s n=""/></l><r>laghdaíonn<s n=""/></r></p></e>
+    <e><p><l>diminish<s n=""/></l><r>laghdaíonn<s n=""/></r></p></e>
     <e><p><l>diminished<s n="adj"/></l><r>laghdaithe<s n="adj"/></r></p></e>
     <e><p><l>dimpled<s n="adj"/></l><r>tibhreach<s n="adj"/></r></p></e>
     <e><p><l>dingy<s n="adj"/></l><r>modartha<s n="adj"/></r></p></e>
@@ -1674,7 +1674,7 @@
     <e><p><l>dither<s n=""/></l><r>crithim<s n=""/></r></p></e>
     <e r="RL"><p><l>dither<s n=""/></l><r>criothnaím<s n=""/></r></p></e>
     <e><p><l>ditto<s n="adj"/></l><r>céanna<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>ditto<s n="n"/></l><r>céanna<s n="n"/></r></p></e>
+    <e><p><l>ditto<s n="n"/></l><r>céanna<s n="n"/></r></p></e>
     <e><p><l>diurnal<s n="adj"/></l><r>laethúil<s n="adj"/></r></p></e>
     <e><p><l>divagate<s n=""/></l><r>téim ar seachrán<s n=""/></r></p></e>
     <e r="RL"><p><l>divagate<s n=""/></l><r>ar fuaidreamh<s n=""/></r></p></e>
@@ -1741,7 +1741,7 @@
     <e r="RL"><p><l>downmost<s n="adj"/></l><r>is faide síos<s n="adj"/></r></p></e>
     <e><p><l>down-stage<s n="adv"/></l><r>chun tosaigh ar an ardán<s n="adv"/></r></p></e>
     <e><p><l>down-stream<s n="adv"/></l><r>síos an abhainn<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>down-stream<s n="adj"/></l><r>síos an abhainn<s n="adj"/></r></p></e>
+    <e><p><l>down-stream<s n="adj"/></l><r>síos an abhainn<s n="adj"/></r></p></e>
     <e><p><l>down-trodden<s n="adj"/></l><r>brúite faoi chois<s n="adj"/></r></p></e>
     <e r="RL"><p><l>down-trodden<s n="adj"/></l><r>faoi leatrom<s n="adj"/></r></p></e>
     <e><p><l>dowse<s n=""/></l><r>collaím<s n=""/></r></p></e>
@@ -1806,7 +1806,7 @@
     <e><p><l>dry-eyed<s n="adj"/></l><r>tirimshúileach<s n="adj"/></r></p></e>
     <e><p><l>dry-plate<s n="n"/></l><r>pláta tirim<s n="n"/></r></p></e>
     <e><p><l>dry-shod<s n="adj"/></l><r>tirimchosach<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>dry-shod<s n="adv"/></l><r>tirimchosach<s n="adv"/></r></p></e>
+    <e><p><l>dry-shod<s n="adv"/></l><r>tirimchosach<s n="adv"/></r></p></e>
     <e><p><l>duck-boards<s n=""/></l><r>ciseach chláir<s n=""/></r></p></e>
     <e><p><l>duffel<s n="n"/></l><r>dufal<s n="n"/></r></p></e>
     <e><p><l>dull-eyed<s n="adj"/></l><r>marbhshúileach<s n="adj"/></r></p></e>
@@ -1849,7 +1849,7 @@
     <e><p><l>educative<s n="adj"/></l><r>oideasach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>educative<s n="adj"/></l><r>oiliúnach<s n="adj"/></r></p></e>
     <e><p><l>effeminate<s n="adj"/></l><r>baineanda<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>effeminate<s n="n"/></l><r>baineanda<s n="n"/></r></p></e>
+    <e><p><l>effeminate<s n="n"/></l><r>baineanda<s n="n"/></r></p></e>
     <e><p><l>efferent<s n="adj"/></l><r>eisiomprach<s n="adj"/></r></p></e>
     <e><p><l>effervescent<s n="adj"/></l><r>broidearnúil<s n="adj"/></r></p></e>
     <e><p><l>effulgent<s n="adj"/></l><r>lonrach<s n="adj"/></r></p></e>
@@ -2004,7 +2004,7 @@
     <e><p><l>estop<s n=""/></l><r>urbhacaim<s n=""/></r></p></e>
     <e><p><l>estreat<s n=""/></l><r>eistréataim<s n=""/></r></p></e>
     <e><p><l>et cetera<s n=""/></l><r>agus araile<s n=""/></r></p></e>
-    <e r="RL"><p><l>et cetera<s n="n"/></l><r>agus araile<s n="n"/></r></p></e>
+    <e><p><l>et cetera<s n="n"/></l><r>agus araile<s n="n"/></r></p></e>
     <e><p><l>Etesian<s n="adj"/></l><r>eitéiseach<s n="adj"/></r></p></e>
     <e><p><l>etherize<s n=""/></l><r>Éitearaím<s n=""/></r></p></e>
     <e><p><l>eulogize<s n=""/></l><r>adhmholaim<s n=""/></r></p></e>
@@ -2144,7 +2144,7 @@
     <e><p><l>faecal<s n="adj"/></l><r>faecach<s n="adj"/></r></p></e>
     <e><p><l>Fahrenheit<s n="adj"/></l><r>Faranhaít<s n="adj"/></r></p></e>
     <e><p><l>fainéant<s n="adj"/></l><r>díomhaoin<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>fainéant<s n="n"/></l><r>díomhaoin<s n="n"/></r></p></e>
+    <e><p><l>fainéant<s n="n"/></l><r>díomhaoin<s n="n"/></r></p></e>
     <e><p><l>faint-hearted<s n="adj"/></l><r>fannchroíoch<s n="adj"/></r></p></e>
     <e r="RL"><p><l>faint-hearted<s n="adj"/></l><r>meata<s n="adj"/></r></p></e>
     <e><p><l>fair-haired<s n="adj"/></l><r>fionn<s n="adj"/></r></p></e>
@@ -2373,7 +2373,7 @@
     <e r="RL"><p><l>force back<s n=""/></l><r>teannaim siar<s n=""/></r></p></e>
     <e><p><l>fordable<s n="adj"/></l><r>intrasnaithe ar áth<s n="adj"/></r></p></e>
     <e v="Nau"><p><l>fore(-)and(-)aft<s n="adj"/></l><r>Ó thosach go deireadh<s n="adj"/></r></p></e>
-    <e r="RL" v="Nau"><p><l>fore(-)and(-)aft<s n="adv"/></l><r>Ó thosach go deireadh<s n="adv"/></r></p></e>
+    <e v="Nau"><p><l>fore(-)and(-)aft<s n="adv"/></l><r>Ó thosach go deireadh<s n="adv"/></r></p></e>
     <e><p><l>foregoing<s n="adj"/></l><r>deireanach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>foregoing<s n="adj"/></l><r>réamhráite<s n="adj"/></r></p></e>
     <e r="RL"><p><l>foregoing<s n="adj"/></l><r>thuasluaite<s n="adj"/></r></p></e>
@@ -2494,7 +2494,7 @@
     <e><p><l>Gallo-Roman<s n="adj"/></l><r>Gall-Rómhánach<s n="adj"/></r></p></e>
     <e><p><l>galore<s n="n"/></l><r>go leor<s n="n"/></r></p></e>
     <e r="RL"><p><l>galore<s n="n"/></l><r>go fairsing<s n="n"/></r></p></e>
-    <e r="RL"><p><l>galore<s n="adv"/></l><r>go leor<s n="adv"/></r></p></e>
+    <e><p><l>galore<s n="adv"/></l><r>go leor<s n="adv"/></r></p></e>
     <e r="RL"><p><l>galore<s n="adv"/></l><r>go fairsing<s n="adv"/></r></p></e>
     <e><p><l>galvanic<s n="adj"/></l><r>galbhánach<s n="adj"/></r></p></e>
     <e><p><l>game-legged<s n="adj"/></l><r>bacach<s n="adj"/></r></p></e>
@@ -2796,7 +2796,7 @@
     <e v="Tex"><p><l>heather-mixture<s n="n"/></l><r>fraochdhaite<s n="n"/></r></p></e>
     <e v="Nau"><p><l>heave in<s n=""/></l><r>tarraingím isteach<s n=""/></r></p></e>
     <e><p><l>heave to<s n=""/></l><r>stadann<s n=""/></r></p></e>
-    <e r="RL"><p><l>heave to<s n=""/></l><r>stadann<s n=""/></r></p></e>
+    <e><p><l>heave to<s n=""/></l><r>stadann<s n=""/></r></p></e>
     <e><p><l>heaven-sent<s n="adj"/></l><r>ó dhia<s n="adj"/></r></p></e>
     <e r="RL"><p><l>heaven-sent<s n="adj"/></l><r>ó neamh<s n="adj"/></r></p></e>
     <e><p><l>heavy-eyed<s n="adj"/></l><r>marbhshúileach<s n="adj"/></r></p></e>
@@ -2856,7 +2856,7 @@
     <e r="RL"><p><l>high-born<s n="adj"/></l><r>de shliocht uasal<s n="adj"/></r></p></e>
     <e><p><l>high-brow<s n="adj"/></l><r>ardléannta<s n="adj"/></r></p></e>
     <e r="RL"><p><l>high-brow<s n="adj"/></l><r>ardintleachtúil<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>high-brow<s n="n"/></l><r>ardléannta<s n="n"/></r></p></e>
+    <e><p><l>high-brow<s n="n"/></l><r>ardléannta<s n="n"/></r></p></e>
     <e r="RL"><p><l>high-brow<s n="n"/></l><r>ardintleachtúil<s n="n"/></r></p></e>
     <e><p><l>high-class<s n="adj"/></l><r>den chéad scoth<s n="adj"/></r></p></e>
     <e><p><l>high-coloured<s n="adj"/></l><r>tréandathach<s n="adj"/></r></p></e>
@@ -3141,7 +3141,7 @@
     <e><p><l>incorruptible<s n="adj"/></l><r>dothruaillithe<s n="adj"/></r></p></e>
     <e><p><l>incredulous<s n="adj"/></l><r>díchreidmheach<s n="adj"/></r></p></e>
     <e><p><l>incubate<s n=""/></l><r>gorann<s n=""/></r></p></e>
-    <e r="RL"><p><l>incubate<s n=""/></l><r>gorann<s n=""/></r></p></e>
+    <e><p><l>incubate<s n=""/></l><r>gorann<s n=""/></r></p></e>
     <e><p><l>incur<s n=""/></l><r>téim i (mbaol)<s n=""/></r></p></e>
     <e r="RL"><p><l>incur<s n=""/></l><r>tarraingím (milleán<s n=""/></r></p></e>
     <e r="RL"><p><l>incur<s n=""/></l><r>fearg<s n=""/></r></p></e>
@@ -3172,7 +3172,7 @@
     <e r="RL"><p><l>indoors<s n="adv"/></l><r>laistigh<s n="adv"/></r></p></e>
     <e><p><l>induct<s n=""/></l><r>insealbhaím<s n=""/></r></p></e>
     <e><p><l>indurate<s n=""/></l><r>cruaim<s n=""/></r></p></e>
-    <e r="RL"><p><l>indurate<s n=""/></l><r>cruaim<s n=""/></r></p></e>
+    <e><p><l>indurate<s n=""/></l><r>cruaim<s n=""/></r></p></e>
     <e><p><l>industrialize<s n=""/></l><r>tionsclaím<s n=""/></r></p></e>
     <e><p><l>inebriated<s n="adj"/></l><r>ar meisce<s n="adj"/></r></p></e>
     <e><p><l>ineffaceable<s n="adj"/></l><r>doscriosta<s n="adj"/></r></p></e>
@@ -3750,7 +3750,7 @@
     <e><p><l>Madagascan<s n="adj"/></l><r>Madagascrach<s n="adj"/></r></p></e>
     <e><p><l>madcap<s n="adj"/></l><r>meargánta<s n="adj"/></r></p></e>
     <e r="RL"><p><l>madcap<s n="adj"/></l><r>díchéillí<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>madcap<s n="n"/></l><r>meargánta<s n="n"/></r></p></e>
+    <e><p><l>madcap<s n="n"/></l><r>meargánta<s n="n"/></r></p></e>
     <e r="RL"><p><l>madcap<s n="n"/></l><r>díchéillí<s n="n"/></r></p></e>
     <e><p><l>madden<s n=""/></l><r>cuirim ar mire<s n=""/></r></p></e>
     <e r="RL"><p><l>madden<s n=""/></l><r>le buile<s n=""/></r></p></e>
@@ -3921,7 +3921,7 @@
     <e><p><l>misbecoming<s n="adj"/></l><r>mí-oiriúnach<s n="adj"/></r></p></e>
     <e><p><l>misbehave<s n=""/></l><r>iompraím mé féin go dona<s n=""/></r></p></e>
     <e r="RL"><p><l>misbehave<s n=""/></l><r>mí-iompraím mé féin<s n=""/></r></p></e>
-    <e r="RL"><p><l>misbehave<s n=""/></l><r>iompraím mé féin go dona<s n=""/></r></p></e>
+    <e><p><l>misbehave<s n=""/></l><r>iompraím mé féin go dona<s n=""/></r></p></e>
     <e r="RL"><p><l>misbehave<s n=""/></l><r>mí-iompraím mé féin<s n=""/></r></p></e>
     <e><p><l>miscible<s n="adj"/></l><r>inmheasctha<s n="adj"/></r></p></e>
     <e><p><l>misconstrue<s n=""/></l><r>bainim míchiall<s n=""/></r></p></e>
@@ -4022,7 +4022,7 @@
     <e><p><l>mountainous<s n="adj"/></l><r>sléibhteach<s n="adj"/></r></p></e>
     <e><p><l>mourn<s n=""/></l><r>caoinim<s n=""/></r></p></e>
     <e r="RL"><p><l>mourn<s n=""/></l><r>déanaim mairgneach<s n=""/></r></p></e>
-    <e r="RL"><p><l>mourn<s n=""/></l><r>caoinim<s n=""/></r></p></e>
+    <e><p><l>mourn<s n=""/></l><r>caoinim<s n=""/></r></p></e>
     <e r="RL"><p><l>mourn<s n=""/></l><r>déanaim mairgneach<s n=""/></r></p></e>
     <e><p><l>move in<s n=""/></l><r>téim a chónaí<s n=""/></r></p></e>
     <e><p><l>move out<s n=""/></l><r>déanaim imirce<s n=""/></r></p></e>
@@ -4164,7 +4164,7 @@
     <e r="RL"><p><l>no-load<s n=""/></l><r>gan lód<s n=""/></r></p></e>
     <e><p><l>nomadic<s n="adj"/></l><r>fáin<s n="adj"/></r></p></e>
     <e><p><l>nonagenarian<s n="adj"/></l><r>sna déaga is ceithre fichid<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>nonagenarian<s n="n"/></l><r>sna déaga is ceithre fichid<s n="n"/></r></p></e>
+    <e><p><l>nonagenarian<s n="n"/></l><r>sna déaga is ceithre fichid<s n="n"/></r></p></e>
     <e><p><l>non-commissioned<s n="adj"/></l><r>neamhchoimisiúnta<s n="adj"/></r></p></e>
     <e r="RL"><p><l>non-commissioned<s n="adj"/></l><r>gan choimisiún<s n="adj"/></r></p></e>
     <e><p><l>non-condensing<s n="adj"/></l><r>neamhdhlúite<s n="adj"/></r></p></e>
@@ -4195,7 +4195,7 @@
     <e r="RL"><p><l>nonsensical<s n="adj"/></l><r>áiféiseach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>nonsensical<s n="adj"/></l><r>díchéillí<s n="adj"/></r></p></e>
     <e><p><l>non-stop<s n=""/></l><r>gan stad<s n=""/></r></p></e>
-    <e r="RL"><p><l>non-stop<s n="adv"/></l><r>gan stad<s n="adv"/></r></p></e>
+    <e><p><l>non-stop<s n="adv"/></l><r>gan stad<s n="adv"/></r></p></e>
     <e><p><l>non-unionist<s n="n"/></l><r>neamhcheardchumannach<s n="n"/></r></p></e>
     <e><p><l>Nordic<s n="adj"/></l><r>Nordach<s n="adj"/></r></p></e>
     <e><p><l>North Cape (the)<s n="n"/></l><r>An Rinn Thuaidh<s n="n"/></r></p></e>
@@ -4396,14 +4396,14 @@
     <e><p><l>oversea<s n=""/></l><r>thar lear<s n=""/></r></p></e>
     <e r="RL"><p><l>oversea<s n=""/></l><r>thar sáile<s n=""/></r></p></e>
     <e r="RL"><p><l>oversea<s n=""/></l><r>thar farraige<s n=""/></r></p></e>
-    <e r="RL"><p><l>oversea<s n="adv"/></l><r>thar lear<s n="adv"/></r></p></e>
+    <e><p><l>oversea<s n="adv"/></l><r>thar lear<s n="adv"/></r></p></e>
     <e r="RL"><p><l>oversea<s n="adv"/></l><r>thar sáile<s n="adv"/></r></p></e>
     <e r="RL"><p><l>oversea<s n="adv"/></l><r>thar farraige<s n="adv"/></r></p></e>
     <e><p><l>oversee<s n=""/></l><r>déanaim maoirseacht ar<s n=""/></r></p></e>
     <e><p><l>oversew<s n=""/></l><r>barrfhuaim<s n=""/></r></p></e>
     <e><p><l>overstep<s n=""/></l><r>téim thar teorainn<s n=""/></r></p></e>
     <e><p><l>over-train<s n=""/></l><r>róthraenálaim<s n=""/></r></p></e>
-    <e r="RL"><p><l>over-train<s n=""/></l><r>róthraenálaim<s n=""/></r></p></e>
+    <e><p><l>over-train<s n=""/></l><r>róthraenálaim<s n=""/></r></p></e>
     <e v="Cards"><p><l>overtrump<s n=""/></l><r>buailim<s n=""/></r></p></e>
     <e><p><l>overweening<s n="adj"/></l><r>ládasach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>overweening<s n="adj"/></l><r>sotalach<s n="adj"/></r></p></e>
@@ -4417,7 +4417,7 @@
     <e><p><l>oxalic<s n="adj"/></l><r>ocsalach<s n="adj"/></r></p></e>
     <e><p><l>oxidizable<s n="adj"/></l><r>inocsaídithe<s n="adj"/></r></p></e>
     <e><p><l>oxidize<s n=""/></l><r>ocsaídím<s n=""/></r></p></e>
-    <e r="RL"><p><l>oxidize<s n=""/></l><r>ocsaídím<s n=""/></r></p></e>
+    <e><p><l>oxidize<s n=""/></l><r>ocsaídím<s n=""/></r></p></e>
     <e><p><l>oxygenate<s n=""/></l><r>ocsaiginím<s n=""/></r></p></e>
     <e><p><l>oyster-farm<s n="n"/></l><r>beirtreach thógála<s n="n"/></r></p></e>
     <e><p><l>ozonize<s n=""/></l><r>Ózónaím<s n=""/></r></p></e>
@@ -4450,7 +4450,7 @@
     <e><p><l>pan-Celtic<s n="adj"/></l><r>Pan-Cheilteach<s n="adj"/></r></p></e>
     <e><p><l>panchromatic<s n="adj"/></l><r>pancrómatach<s n="adj"/></r></p></e>
     <e><p><l>pander<s n=""/></l><r>friothálaim ar<s n=""/></r></p></e>
-    <e r="RL"><p><l>pander<s n=""/></l><r>friothálaim ar<s n=""/></r></p></e>
+    <e><p><l>pander<s n=""/></l><r>friothálaim ar<s n=""/></r></p></e>
     <e><p><l>pant out<s n=""/></l><r>deirim (rud) agus séideán ionam<s n=""/></r></p></e>
     <e><p><l>pantile<s n="n"/></l><r>tíl chíoma<s n="n"/></r></p></e>
     <e><p><l>papal<s n="adj"/></l><r>pápach<s n="adj"/></r></p></e>
@@ -4487,7 +4487,7 @@
     <e r="RL"><p><l>partly<s n="adv"/></l><r>beagán<s n="adv"/></r></p></e>
     <e r="RL"><p><l>partly<s n="adv"/></l><r>roinnt<s n="adv"/></r></p></e>
     <e><p><l>part-time<s n="n"/></l><r>páirtaimsire<s n="n"/></r></p></e>
-    <e r="RL"><p><l>part-time<s n=""/></l><r>páirtaimsire<s n=""/></r></p></e>
+    <e><p><l>part-time<s n=""/></l><r>páirtaimsire<s n=""/></r></p></e>
     <e><p><l>paschal<s n="adj"/></l><r>cásca<s n="adj"/></r></p></e>
     <e><p><l>pass across<s n=""/></l><r>téim trasna<s n=""/></r></p></e>
     <e><p><l>passing-bell<s n="n"/></l><r>creill bháis<s n="n"/></r></p></e>
@@ -4668,7 +4668,7 @@
     <e><p><l>pliocene<s n="adj"/></l><r>pléicéineach<s n="adj"/></r></p></e>
     <e><p><l>plough in<s n=""/></l><r>treabhaim (leasú) tríd an gcréafóig<s n=""/></r></p></e>
     <e><p><l>plough through<s n=""/></l><r>treabhaim (mo bhealach) trí<s n=""/></r></p></e>
-    <e r="RL"><p><l>plough through<s n=""/></l><r>treabhaim (mo bhealach) trí<s n=""/></r></p></e>
+    <e><p><l>plough through<s n=""/></l><r>treabhaim (mo bhealach) trí<s n=""/></r></p></e>
     <e><p><l>pluck off<s n=""/></l><r>scoithim<s n=""/></r></p></e>
     <e><p><l>pluck out<s n=""/></l><r>tarraingím amach<s n=""/></r></p></e>
     <e r="RL"><p><l>pluck out<s n=""/></l><r>piocaim<s n=""/></r></p></e>
@@ -4835,7 +4835,7 @@
     <e><p><l>pricking-wheel<s n="n"/></l><r>roth prioctha<s n="n"/></r></p></e>
     <e><p><l>priestly<s n="adj"/></l><r>sagartúil<s n="adj"/></r></p></e>
     <e><p><l>prima facie<s n="adv"/></l><r>ar an gcéad amharc<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>prima facie<s n="adj"/></l><r>ar an gcéad amharc<s n="adj"/></r></p></e>
+    <e><p><l>prima facie<s n="adj"/></l><r>ar an gcéad amharc<s n="adj"/></r></p></e>
     <e><p><l>primeval<s n="adj"/></l><r>Ársa<s n="adj"/></r></p></e>
     <e r="RL"><p><l>primeval<s n="adj"/></l><r>cianaoiseach<s n="adj"/></r></p></e>
     <e><p><l>primordial<s n="adj"/></l><r>bunaidh<s n="adj"/></r></p></e>
@@ -4892,7 +4892,7 @@
     <e><p><l>protecting<s n="adj"/></l><r>cosantach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>protecting<s n="adj"/></l><r>caomhnaitheach<s n="adj"/></r></p></e>
     <e><p><l>Protestant<s n="adj"/></l><r>Protastúnach<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>Protestant<s n="n"/></l><r>Protastúnach<s n="n"/></r></p></e>
+    <e><p><l>Protestant<s n="n"/></l><r>Protastúnach<s n="n"/></r></p></e>
     <e><p><l>protoplasmic<s n="adj"/></l><r>prótaplasmach<s n="adj"/></r></p></e>
     <e><p><l>prototonic<s n="adj"/></l><r>prótatonach<s n="adj"/></r></p></e>
     <e><p><l>protozoic<s n="adj"/></l><r>prótasóch<s n="adj"/></r></p></e>
@@ -4934,7 +4934,7 @@
     <e r="RL" v="A"><p><l>puissant<s n="adj"/></l><r>ardchumhachtach<s n="adj"/></r></p></e>
     <e><p><l>puke<s n=""/></l><r>cuirim amach<s n=""/></r></p></e>
     <e r="RL"><p><l>puke<s n=""/></l><r>caithim amach<s n=""/></r></p></e>
-    <e r="RL"><p><l>puke<s n=""/></l><r>cuirim amach<s n=""/></r></p></e>
+    <e><p><l>puke<s n=""/></l><r>cuirim amach<s n=""/></r></p></e>
     <e r="RL"><p><l>puke<s n=""/></l><r>caithim amach<s n=""/></r></p></e>
     <e><p><l>pule<s n=""/></l><r>tá ag diúgaireacht<s n=""/></r></p></e>
     <e r="RL"><p><l>pule<s n=""/></l><r>ag meigeallach<s n=""/></r></p></e>
@@ -5090,7 +5090,7 @@
     <e r="RL"><p><l>reasoned<s n="adj"/></l><r>loighciúil<s n="adj"/></r></p></e>
     <e><p><l>reawaken<s n=""/></l><r>athdhúisím<s n=""/></r></p></e>
     <e r="RL"><p><l>reawaken<s n=""/></l><r>athmhúsclaím<s n=""/></r></p></e>
-    <e r="RL"><p><l>reawaken<s n=""/></l><r>athdhúisím<s n=""/></r></p></e>
+    <e><p><l>reawaken<s n=""/></l><r>athdhúisím<s n=""/></r></p></e>
     <e r="RL"><p><l>reawaken<s n=""/></l><r>athmhúsclaím<s n=""/></r></p></e>
     <e><p><l>rebind<s n=""/></l><r>athcheanglaím<s n=""/></r></p></e>
     <e><p><l>rebuild<s n=""/></l><r>atógaim<s n=""/></r></p></e>
@@ -5104,7 +5104,7 @@
     <e><p><l>recognizable<s n="adj"/></l><r>inaitheanta<s n="adj"/></r></p></e>
     <e><p><l>recognized<s n="adj"/></l><r>aitheanta<s n="adj"/></r></p></e>
     <e><p><l>recommence<s n=""/></l><r>atosaím<s n=""/></r></p></e>
-    <e r="RL"><p><l>recommence<s n=""/></l><r>atosaím<s n=""/></r></p></e>
+    <e><p><l>recommence<s n=""/></l><r>atosaím<s n=""/></r></p></e>
     <e><p><l>recommendable<s n="adj"/></l><r>inmholta<s n="adj"/></r></p></e>
     <e><p><l>recondition<s n=""/></l><r>athchóirím<s n=""/></r></p></e>
     <e r="RL"><p><l>recondition<s n=""/></l><r>cuirim cóir nua ar<s n=""/></r></p></e>
@@ -5189,7 +5189,7 @@
     <e r="RL"><p><l>regroup<s n=""/></l><r>athghrúpálaim<s n=""/></r></p></e>
     <e><p><l>regularize<s n=""/></l><r>tugaim chun rialtachta<s n=""/></r></p></e>
     <e><p><l>regurgitate<s n=""/></l><r>frithshruthaíonn<s n=""/></r></p></e>
-    <e r="RL"><p><l>regurgitate<s n=""/></l><r>frithshruthaíonn<s n=""/></r></p></e>
+    <e><p><l>regurgitate<s n=""/></l><r>frithshruthaíonn<s n=""/></r></p></e>
     <e><p><l>rehandle<s n=""/></l><r>cuirim lámh<s n=""/></r></p></e>
     <e r="RL"><p><l>rehandle<s n=""/></l><r>cos<s n=""/></r></p></e>
     <e r="RL"><p><l>rehandle<s n=""/></l><r>arís in<s n=""/></r></p></e>
@@ -5209,7 +5209,7 @@
     <e r="RL"><p><l>reinvigorate<s n=""/></l><r>athspreagadh<s n=""/></r></p></e>
     <e r="RL"><p><l>reinvigorate<s n=""/></l><r>i<s n=""/></r></p></e>
     <e><p><l>rejuvenate<s n=""/></l><r>athnuaim<s n=""/></r></p></e>
-    <e r="RL"><p><l>rejuvenate<s n=""/></l><r>athnuaim<s n=""/></r></p></e>
+    <e><p><l>rejuvenate<s n=""/></l><r>athnuaim<s n=""/></r></p></e>
     <e><p><l>relight<s n=""/></l><r>athlasaim<s n=""/></r></p></e>
     <e><p><l>reline<s n=""/></l><r>athlíneálaim<s n=""/></r></p></e>
     <e><p><l>reload<s n=""/></l><r>athluchtaím<s n=""/></r></p></e>
@@ -5301,7 +5301,7 @@
     <e r="RL"><p><l>restring<s n=""/></l><r>le<s n=""/></r></p></e>
     <e><p><l>resurrect<s n=""/></l><r>athbheoim<s n=""/></r></p></e>
     <e><p><l>resuscitate<s n=""/></l><r>athbheoim<s n=""/></r></p></e>
-    <e r="RL"><p><l>resuscitate<s n=""/></l><r>athbheoim<s n=""/></r></p></e>
+    <e><p><l>resuscitate<s n=""/></l><r>athbheoim<s n=""/></r></p></e>
     <e><p><l>ret<s n=""/></l><r>báim<s n=""/></r></p></e>
     <e><p><l>retaliatory<s n="adj"/></l><r>díoltasach<s n="adj"/></r></p></e>
     <e><p><l>retard<s n=""/></l><r>moillím<s n=""/></r></p></e>
@@ -5357,7 +5357,7 @@
     <e><p><l>ring-armour<s n="n"/></l><r>cathéide mháilleach<s n="n"/></r></p></e>
     <e><p><l>rip off<s n=""/></l><r>stróicim (clúdach) de rud<s n=""/></r></p></e>
     <e><p><l>ripen<s n=""/></l><r>aibím<s n=""/></r></p></e>
-    <e r="RL"><p><l>ripen<s n=""/></l><r>aibím<s n=""/></r></p></e>
+    <e><p><l>ripen<s n=""/></l><r>aibím<s n=""/></r></p></e>
     <e><p><l>rive<s n=""/></l><r>scoiltim<s n=""/></r></p></e>
     <e><p><l>road-hog<s n="n"/></l><r>tiománaí fiáin<s n="n"/></r></p></e>
     <e><p><l>roadstead<s n="n"/></l><r>ród<s n="n"/></r></p></e>
@@ -5864,7 +5864,7 @@
     <e r="RL"><p><l>slap-bang<s n="adv"/></l><r>plinc pleainc<s n="adv"/></r></p></e>
     <e><p><l>slap-dash<s n="adj"/></l><r>amscaí<s n="adj"/></r></p></e>
     <e r="RL"><p><l>slap-dash<s n="adj"/></l><r>sleamchúiseach<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>slap-dash<s n="adv"/></l><r>amscaí<s n="adv"/></r></p></e>
+    <e><p><l>slap-dash<s n="adv"/></l><r>amscaí<s n="adv"/></r></p></e>
     <e r="RL"><p><l>slap-dash<s n="adv"/></l><r>sleamchúiseach<s n="adv"/></r></p></e>
     <e><p><l>slapjack<s n="n"/></l><r>cáca greidille<s n="n"/></r></p></e>
     <e><p><l>slate-blue<s n="adj"/></l><r>slinnghorm<s n="adj"/></r></p></e>
@@ -6028,10 +6028,10 @@
     <e><p><l>spell-bound<s n="adj"/></l><r>faoi dhraíocht<s n="adj"/></r></p></e>
     <e><p><l>spew<s n=""/></l><r>cuirim amach<s n=""/></r></p></e>
     <e r="RL"><p><l>spew<s n=""/></l><r>aiseagaim<s n=""/></r></p></e>
-    <e r="RL"><p><l>spew<s n=""/></l><r>cuirim amach<s n=""/></r></p></e>
+    <e><p><l>spew<s n=""/></l><r>cuirim amach<s n=""/></r></p></e>
     <e r="RL"><p><l>spew<s n=""/></l><r>aiseagaim<s n=""/></r></p></e>
     <e><p><l>sphacelate<s n=""/></l><r>orchraíonn<s n=""/></r></p></e>
-    <e r="RL"><p><l>sphacelate<s n=""/></l><r>orchraíonn<s n=""/></r></p></e>
+    <e><p><l>sphacelate<s n=""/></l><r>orchraíonn<s n=""/></r></p></e>
     <e><p><l>sphenoidal<s n="adj"/></l><r>sféanóideach<s n="adj"/></r></p></e>
     <e><p><l>spherical<s n="adj"/></l><r>comhchruinn<s n="adj"/></r></p></e>
     <e r="RL"><p><l>spherical<s n="adj"/></l><r>sféarúil<s n="adj"/></r></p></e>
@@ -6285,7 +6285,7 @@
     <e><p><l>subconscious<s n="adj"/></l><r>fochomhfhiosach<s n="adj"/></r></p></e>
     <e><p><l>subcutaneous<s n="adj"/></l><r>fochraicneach<s n="adj"/></r></p></e>
     <e><p><l>subdivide<s n=""/></l><r>foroinnim<s n=""/></r></p></e>
-    <e r="RL"><p><l>subdivide<s n=""/></l><r>foroinnim<s n=""/></r></p></e>
+    <e><p><l>subdivide<s n=""/></l><r>foroinnim<s n=""/></r></p></e>
     <e><p><l>sub-edit<s n=""/></l><r>fo-eagraím<s n=""/></r></p></e>
     <e><p><l>sub-equatorial<s n="adj"/></l><r>fo-mheánchiorclach<s n="adj"/></r></p></e>
     <e><p><l>subfusc<s n="adj"/></l><r>dorcha<s n="adj"/></r></p></e>
@@ -6680,11 +6680,11 @@
     <e><p><l>titrate<s n=""/></l><r>toirtmheascaim<s n=""/></r></p></e>
     <e><p><l>to-day<s n="adv"/></l><r>inniu<s n="adv"/></r></p></e>
     <e r="RL"><p><l>to-day<s n="adv"/></l><r>an lá inniu<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>to-day<s n="n"/></l><r>inniu<s n="n"/></r></p></e>
+    <e><p><l>to-day<s n="n"/></l><r>inniu<s n="n"/></r></p></e>
     <e r="RL"><p><l>to-day<s n="n"/></l><r>an lá inniu<s n="n"/></r></p></e>
     <e v="F"><p><l>tog<s n=""/></l><r>gléasaim<s n=""/></r></p></e>
     <e r="RL" v="F"><p><l>tog<s n=""/></l><r>feistím<s n=""/></r></p></e>
-    <e r="RL" v="F"><p><l>tog<s n=""/></l><r>gléasaim<s n=""/></r></p></e>
+    <e v="F"><p><l>tog<s n=""/></l><r>gléasaim<s n=""/></r></p></e>
     <e r="RL" v="F"><p><l>tog<s n=""/></l><r>feistím<s n=""/></r></p></e>
     <e><p><l>toilsome<s n="adj"/></l><r>saothrach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>toilsome<s n="adj"/></l><r>duaisiúil<s n="adj"/></r></p></e>
@@ -6694,7 +6694,7 @@
     <e><p><l>tongued<s n="adj"/></l><r>teangach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>tongued<s n="adj"/></l><r>(clár) faoi theangacha<s n="adj"/></r></p></e>
     <e><p><l>tonight<s n="adv"/></l><r>anocht<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>tonight<s n="n"/></l><r>anocht<s n="n"/></r></p></e>
+    <e><p><l>tonight<s n="n"/></l><r>anocht<s n="n"/></r></p></e>
     <e><p><l>tonsorial<s n="adj"/></l><r>an bhearbóra<s n="adj"/></r></p></e>
     <e><p><l>tonsured<s n="adj"/></l><r>coirneach<s n="adj"/></r></p></e>
     <e v="Const"><p><l>toothing-stone<s n="n"/></l><r>cloch shnaidhmthe<s n="n"/></r></p></e>
@@ -6772,7 +6772,7 @@
     <e><p><l>transposable<s n="adj"/></l><r>inaistrithe<s n="adj"/></r></p></e>
     <e r="RL"><p><l>transposable<s n="adj"/></l><r>inmhalartaithe<s n="adj"/></r></p></e>
     <e><p><l>transude<s n=""/></l><r>tréthálann<s n=""/></r></p></e>
-    <e r="RL"><p><l>transude<s n=""/></l><r>tréthálann<s n=""/></r></p></e>
+    <e><p><l>transude<s n=""/></l><r>tréthálann<s n=""/></r></p></e>
     <e><p><l>trapped<s n="adj"/></l><r>sáinnithe<s n="adj"/></r></p></e>
     <e r="RL"><p><l>trapped<s n="adj"/></l><r>ceaptha i ngaiste<s n="adj"/></r></p></e>
     <e><p><l>traumatic<s n="adj"/></l><r>coscrach<s n="adj"/></r></p></e>
@@ -6836,7 +6836,7 @@
     <e><p><l>tumble-down<s n=""/></l><r>raiceáilte<s n=""/></r></p></e>
     <e r="RL"><p><l>tumble-down<s n=""/></l><r>i riocht titim as a chéile<s n=""/></r></p></e>
     <e><p><l>tumefy<s n=""/></l><r>atann<s n=""/></r></p></e>
-    <e r="RL"><p><l>tumefy<s n=""/></l><r>atann<s n=""/></r></p></e>
+    <e><p><l>tumefy<s n=""/></l><r>atann<s n=""/></r></p></e>
     <e><p><l>tuning-fork<s n="n"/></l><r>gabhlóg thiúnta<s n="n"/></r></p></e>
     <e><p><l>tuneless<s n="adj"/></l><r>míbhinn<s n="adj"/></r></p></e>
     <e r="RL"><p><l>tuneless<s n="adj"/></l><r>garg<s n="adj"/></r></p></e>
@@ -6851,12 +6851,12 @@
     <e><p><l>turn about<s n=""/></l><r>casaim<s n=""/></r></p></e>
     <e r="RL"><p><l>turn about<s n=""/></l><r>iompaím (rud) thart<s n=""/></r></p></e>
     <e r="RL"><p><l>turn about<s n=""/></l><r>timpeall<s n=""/></r></p></e>
-    <e r="RL"><p><l>turn about<s n=""/></l><r>casaim<s n=""/></r></p></e>
+    <e><p><l>turn about<s n=""/></l><r>casaim<s n=""/></r></p></e>
     <e r="RL"><p><l>turn about<s n=""/></l><r>iompaím (rud) thart<s n=""/></r></p></e>
     <e r="RL"><p><l>turn about<s n=""/></l><r>timpeall<s n=""/></r></p></e>
     <e><p><l>turn aside<s n=""/></l><r>iompaím<s n=""/></r></p></e>
     <e r="RL"><p><l>turn aside<s n=""/></l><r>casaim (rud) i leataobh<s n=""/></r></p></e>
-    <e r="RL"><p><l>turn aside<s n=""/></l><r>iompaím<s n=""/></r></p></e>
+    <e><p><l>turn aside<s n=""/></l><r>iompaím<s n=""/></r></p></e>
     <e r="RL"><p><l>turn aside<s n=""/></l><r>casaim (rud) i leataobh<s n=""/></r></p></e>
     <e><p><l>turps<s n="n"/></l><r>ola thuirpintín<s n="n"/></r></p></e>
     <e><p><l>turret-ship<s n="n"/></l><r>long thúirín<s n="n"/></r></p></e>
@@ -6895,14 +6895,14 @@
     <e><p><l>ugly<s n="adj"/></l><r>gránna<s n="adj"/></r></p></e>
     <e r="RL"><p><l>ugly<s n="adj"/></l><r>míofar<s n="adj"/></r></p></e>
     <e><p><l>ulcerate<s n=""/></l><r>othrasaíonn<s n=""/></r></p></e>
-    <e r="RL"><p><l>ulcerate<s n=""/></l><r>othrasaíonn<s n=""/></r></p></e>
+    <e><p><l>ulcerate<s n=""/></l><r>othrasaíonn<s n=""/></r></p></e>
     <e><p><l>ulcerous<s n="adj"/></l><r>othrasach<s n="adj"/></r></p></e>
     <e><p><l>ulnar<s n="adj"/></l><r>ulnach<s n="adj"/></r></p></e>
     <e><p><l>ultimo<s n="adv"/></l><r>den mhí seo caite<s n="adv"/></r></p></e>
     <e><p><l>ultra-fashionable<s n="adj"/></l><r>fíorfhaiseanta<s n="adj"/></r></p></e>
     <e><p><l>ultra-violet<s n="adj"/></l><r>ultraivialait<s n="adj"/></r></p></e>
     <e><p><l>ultra vires<s n=""/></l><r>thar cumhacht<s n=""/></r></p></e>
-    <e r="RL"><p><l>ultra vires<s n=""/></l><r>thar cumhacht<s n=""/></r></p></e>
+    <e><p><l>ultra vires<s n=""/></l><r>thar cumhacht<s n=""/></r></p></e>
     <e><p><l>ululate<s n=""/></l><r>scréachann<s n=""/></r></p></e>
     <e r="RL"><p><l>ululate<s n=""/></l><r>ligeann uaill<s n=""/></r></p></e>
     <e><p><l>umbellate<s n="adj"/></l><r>umbalach<s n="adj"/></r></p></e>
@@ -7666,7 +7666,7 @@
     <e><p><l>vesical<s n="adj"/></l><r>lamhnánach<s n="adj"/></r></p></e>
     <e><p><l>vested<s n="adj"/></l><r>dílsithe<s n="adj"/></r></p></e>
     <e><p><l>vestal<s n="adj"/></l><r>veisteach<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>vestal<s n="n"/></l><r>veisteach<s n="n"/></r></p></e>
+    <e><p><l>vestal<s n="n"/></l><r>veisteach<s n="n"/></r></p></e>
     <e><p><l>vexing<s n="adj"/></l><r>bearránach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>vexing<s n="adj"/></l><r>cráite<s n="adj"/></r></p></e>
     <e><p><l>vibrant<s n="adj"/></l><r>creathach<s n="adj"/></r></p></e>
@@ -7713,7 +7713,7 @@
     <e><p><l>vocalic<s n="adj"/></l><r>guthach<s n="adj"/></r></p></e>
     <e><p><l>vocational<s n="adj"/></l><r>gairmeach<s n="adj"/></r></p></e>
     <e><p><l>volatilize<s n=""/></l><r>galaíonn<s n=""/></r></p></e>
-    <e r="RL"><p><l>volatilize<s n=""/></l><r>galaíonn<s n=""/></r></p></e>
+    <e><p><l>volatilize<s n=""/></l><r>galaíonn<s n=""/></r></p></e>
     <e><p><l>volcanic<s n="adj"/></l><r>bolcánach<s n="adj"/></r></p></e>
     <e><p><l>voltaic<s n="adj"/></l><r>voltach<s n="adj"/></r></p></e>
     <e><p><l>volubility<s n="n"/></l><r>líofacht chainte<s n="n"/></r></p></e>
