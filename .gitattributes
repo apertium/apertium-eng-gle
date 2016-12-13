@@ -1,2 +1,3 @@
 * text=auto !eol
 /apertium-en-ga.en-ga.dix -text
+dev/cheap-eid.pl -text
