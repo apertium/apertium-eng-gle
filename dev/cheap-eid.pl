@@ -40,6 +40,31 @@ my %posmap = (
     'v.tr.' => 'vblex',
     'ind. tr.' => 'vblex',
     'ind.tr.' => 'vblex',
+    'v.ind.tr.' => 'vblex',
+    'v.ind. tr.' => 'vblex',
+    'v.ind.tr' => 'vblex',
+    'tr.' => 'vblex',
+    'tr' => 'vblex',
+    'v.' => 'vblex',
+    'v' => 'vblex',
+    's.pl.' => 'n',
+    's.pl' => 'n',
+    's.pl.,' => 'n',
+    's. pl.' => 'n',
+    'attrib.a.' => 'adj',
+    'pred. a.' => 'adj',
+    'pred.a.' => 'adj',
+    'pred.a' => 'adj',
+    'pred.' => 'adj',
+    'Lt.adv.phr.' => 'adv',
+    'Lt. phr.' => 'adv',
+    'prep.' => 'pr',
+);
+my %nummap = (
+    's.pl.' => 'pl',
+    's.pl' => 'pl',
+    's.pl.,' => 'pl',
+    's. pl.' => 'pl',
 );
 
 my $header =<<__END__;
@@ -90,8 +115,19 @@ sub doentry {
     for my $pos (split(/(?: ?&amp; ?|, ?)/, $$item{'pos'})) {
         my $single = dclone $item;
         $$single{'pos'} = $pos;
+        next if(!exists $posmap{$pos});
         # skip verbs with a comma or parens
         next if($posmap{$pos} eq 'vblex' && ($$item{'trg'} =~ /[,)]/));
+        if(exists $nummap{$pos}) {
+            $$single{'num'} = $nummap{$pos};
+        }
+        if(exists $$single{'gen'} && $$single{'gen'} =~ /([mf])pl\.?/) {
+            $$single{'gen'} = $1;
+            $$single{'num'} = 'pl';
+        }
+        if(exists $$single{'gen'} && $$single{'gen'} =~ /([mf])[\.;,]/) {
+            $$single{'gen'} = $1;
+        }
         my $first = 1;
         for my $trg (split(/, ?/, $$item{'trg'})) {
             $$single{'first'} = $first;
@@ -119,7 +155,11 @@ sub writeentry {
     if(exists $$entry{'label'}) {
         print " v=\"" . $$entry{'label'} . "\"";
     }
-    print "><p><l>$src<s n=\"$pos\"/></l><r>$trg<s n=\"$pos\"/>";
+    print "><p><l>$src<s n=\"$pos\"/>";
+    if(exists $$entry{'num'} && $$entry{'num'} eq 'pl') {
+        print "<s n=\"pl\"/>";
+    }
+    print "</l><r>$trg<s n=\"$pos\"/>";
     if(exists $$entry{'gen'}) {
         print "<s n=\"" . $$entry{'gen'} . '"/>';
     }
