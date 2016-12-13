@@ -118,6 +118,8 @@ sub doentry {
         next if(!exists $posmap{$pos});
         # skip verbs with a comma or parens
         next if($posmap{$pos} eq 'vblex' && ($$item{'trg'} =~ /[,)]/));
+        # skip if there's a parenthetical phrase ending with etc.
+        next if($$item{'trg'} =~ /etc\.\) /);
         if(exists $nummap{$pos}) {
             $$single{'num'} = $nummap{$pos};
         }
@@ -133,6 +135,7 @@ sub doentry {
             $$single{'trg'} =~ s/^ ?\([^)]*\) ?//;
             $$single{'trg'} =~ s/ ?\([^)]*\)?$//;
             $$single{'src'} =~ s/ ?\([^)]*\)?$//;
+            $$single{'src'} =~ s/ ?\(\-\)/-/g;
             $$single{'first'} = $first;
             $$single{'trg'} = $trg;
             writeentry($single);

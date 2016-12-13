@@ -3942,8 +3942,8 @@
     <e><p><l>forbearing<s n="adj"/></l><r>foighneach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>forbearing<s n="adj"/></l><r>fadfhulangach<s n="adj"/></r></p></e>
     <e><p><l>fordable<s n="adj"/></l><r>intrasnaithe ar áth<s n="adj"/></r></p></e>
-    <e v="Nau"><p><l>fore(-)and(-)aft<s n="adj"/></l><r>ó thosach go deireadh<s n="adj"/></r></p></e>
-    <e v="Nau"><p><l>fore(-)and(-)aft<s n="adv"/></l><r>ó thosach go deireadh<s n="adv"/></r></p></e>
+    <e v="Nau"><p><l>fore-and-aft<s n="adj"/></l><r>ó thosach go deireadh<s n="adj"/></r></p></e>
+    <e v="Nau"><p><l>fore-and-aft<s n="adv"/></l><r>ó thosach go deireadh<s n="adv"/></r></p></e>
     <e><p><l>forearm<s n="n"/></l><r>rí<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>forefather<s n="n"/></l><r>sinsear<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>forefinger<s n="n"/></l><r>corrmhéar<s n="n"/><s n="f"/></r></p></e>
@@ -4855,8 +4855,6 @@
     <e><p><l>houseleek<s n="n"/></l><r>tóirpín<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>house-party<s n="n"/></l><r>cóisir chuairte<s n="n"/></r></p></e>
     <e><p><l>house-porter<s n="n"/></l><r>doirseoir<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>house-proud<s n="adj"/></l><r>mórtasach as do (a<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>house-proud<s n="adj"/></l><r>etc.) theach<s n="adj"/></r></p></e>
     <e><p><l>housewarming<s n="n"/></l><r>infear<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hovering<s n="adj"/></l><r>foluaineach<s n="adj"/></r></p></e>
     <e><p><l>howitzer<s n="n"/></l><r>habhatsar<s n="n"/><s n="m"/></r></p></e>
@@ -7879,7 +7877,7 @@
     <e><p><l>postmark<s n="n"/></l><r>postmharc<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>postmeridian<s n="adj"/></l><r>iarnóna<s n="adj"/></r></p></e>
     <e><p><l>post-nuptial<s n="adj"/></l><r>iarphósta<s n="adj"/></r></p></e>
-    <e><p><l>post(-)office<s n="n"/></l><r>oifig phoist<s n="n"/></r></p></e>
+    <e><p><l>post-office<s n="n"/></l><r>oifig phoist<s n="n"/></r></p></e>
     <e><p><l>post-paid<s n="adj"/></l><r>postíoctha<s n="adj"/></r></p></e>
     <e><p><l>postprandial<s n="adj"/></l><r>iarphroinne<s n="adj"/></r></p></e>
     <e><p><l>postulant<s n="n"/></l><r>nuasachán<s n="n"/><s n="m"/></r></p></e>
@@ -8085,9 +8083,6 @@
     <e><p><l>prosecutor<s n="n"/></l><r>cúisitheoir<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>proselyte<s n="n"/></l><r>iompaitheach<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>prosody<s n="n"/></l><r>prosóid<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>prospective<s n="adj"/></l><r>atá (a bhí<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>prospective<s n="adj"/></l><r>etc.) le teacht<s n="adj"/></r></p></e>
-    <e r="RL"><p><l>prospective<s n="adj"/></l><r>atá chugainn<s n="adj"/></r></p></e>
     <e><p><l>prospectus<s n="n"/></l><r>réamheolaire<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>protecting<s n="adj"/></l><r>cosantach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>protecting<s n="adj"/></l><r>caomhnaitheach<s n="adj"/></r></p></e>
@@ -8831,7 +8826,7 @@
     <e><p><l>rot-gut<s n="n"/></l><r>bolcán<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rotifer<s n="n"/></l><r>rothánach<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rot-proof<s n="adj"/></l><r>dolofa<s n="adj"/></r></p></e>
-    <e><p><l>rotten(-)stone<s n="n"/></l><r>cloch mhorgtha<s n="n"/></r></p></e>
+    <e><p><l>rotten-stone<s n="n"/></l><r>cloch mhorgtha<s n="n"/></r></p></e>
     <e><p><l>rouble<s n="n"/></l><r>rúbal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rough down<s n="vblex"/></l><r>garbhshnoím<s n="vblex"/></r></p></e>
     <e><p><l>roughage<s n="n"/></l><r>gairbhseach<s n="n"/><s n="f"/></r></p></e>
@@ -11971,7 +11966,7 @@
     <e><p><l>vaporization<s n="n"/></l><r>galú<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vaporizer<s n="n"/></l><r>galaitheoir<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vaporous<s n="adj"/></l><r>galach<s n="adj"/></r></p></e>
-    <e><p><l>vari(-)coloured<s n="adj"/></l><r>ildathach<s n="adj"/></r></p></e>
+    <e><p><l>vari-coloured<s n="adj"/></l><r>ildathach<s n="adj"/></r></p></e>
     <e><p><l>variola<s n="n"/></l><r>bolgach<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>variometer<s n="n"/></l><r>ailtéaraiméadar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>varsity<s n="n"/></l><r>ollscoil<s n="n"/><s n="f"/></r></p></e>
@@ -12378,7 +12373,7 @@
     <e><p><l>wick<s n="n"/></l><r>buaiceas<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wicket-gate<s n="n"/></l><r>geaitín<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>widen out<s n="vblex"/></l><r>leathnaíonn<s n="vblex"/></r></p></e>
-    <e><p><l>wide(-)open<s n="adj"/></l><r>ar leathadh<s n="adj"/></r></p></e>
+    <e><p><l>wide-open<s n="adj"/></l><r>ar leathadh<s n="adj"/></r></p></e>
     <e><p><l>widowhood<s n="n"/></l><r>baintreachas<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>wifely<s n="adj"/></l><r>céiliúil<s n="adj"/></r></p></e>
     <e r="RL"><p><l>wifely<s n="adj"/></l><r>(cáilíochtaí) mná céile<s n="adj"/></r></p></e>
