@@ -1717,7 +1717,9 @@
     <e><p><l>chub<s n="n"/></l><r>plubán<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>chubby-cheeked<s n="adj"/></l><r>plucach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>chubby-cheeked<s n="adj"/></l><r>plubrach<s n="adj"/></r></p></e>
-    <e v="F"><p><l>chuck up<s n="vblex"/></l><r>caithim in aer; éirím as; fágaim sa tubaiste<s n="vblex"/></r></p></e>
+    <e v="F"><p><l>chuck up<s n="vblex"/></l><r>caithim in aer<s n="vblex"/></r></p></e>
+    <e r="RL" v="F"><p><l>chuck up<s n="vblex"/></l><r>éirím as<s n="vblex"/></r></p></e>
+    <e r="RL" v="F"><p><l>chuck up<s n="vblex"/></l><r>fágaim sa tubaiste<s n="vblex"/></r></p></e>
     <e><p><l>chummy<s n="adj"/></l><r>cairdiúil<s n="adj"/></r></p></e>
     <e r="RL"><p><l>chummy<s n="adj"/></l><r>mór le chéile<s n="adj"/></r></p></e>
     <e><p><l>churchman<s n="n"/></l><r>eaglaiseach<s n="n"/><s n="m"/></r></p></e>
@@ -1895,7 +1897,7 @@
     <e><p><l>cold-hammer<s n="vblex"/></l><r>buailim iarann fuar<s n="vblex"/></r></p></e>
     <e><p><l>cold-hearted<s n="adj"/></l><r>fuarchroíoch<s n="adj"/></r></p></e>
     <e><p><l>coleopter<s n="n"/></l><r>coiléipteir<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Coliseum (the)<s n="n"/></l><r>Colasaem<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Coliseum<s n="n"/></l><r>Colasaem<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>collar-beam<s n="n"/></l><r>boimbéal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>collectivism<s n="n"/></l><r>aonseilbh<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>collectivity<s n="n"/></l><r>comhchoitiantacht<s n="n"/><s n="f"/></r></p></e>
@@ -3473,7 +3475,7 @@
     <e><p><l>etymologist<s n="n"/></l><r>sanasaí<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>etymology<s n="n"/></l><r>sanasaíocht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>eucalyptus<s n="n"/></l><r>eoclaip<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>Eucharist (the)<s n="n"/></l><r>Eocairist<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Eucharist<s n="n"/></l><r>Eocairist<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>eulogist<s n="n"/></l><r>adhmholtóir<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>eulogize<s n="vblex"/></l><r>adhmholaim<s n="vblex"/></r></p></e>
     <e><p><l>eunuch<s n="n"/></l><r>coillteán<s n="n"/><s n="m"/></r></p></e>
@@ -4703,7 +4705,7 @@
     <e><p><l>hero-worship<s n="n"/></l><r>laochadhradh<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>herpes<s n="n"/></l><r>heirpéas<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>herpetic<s n="adj"/></l><r>heirpéach<s n="adj"/></r></p></e>
-    <e v="F"><p><l>Herring-pond (the)<s n="n"/></l><r>An tAigéan Atlantach<s n="n"/></r></p></e>
+    <e v="F"><p><l>Herring-pond<s n="n"/></l><r>An tAigéan Atlantach<s n="n"/></r></p></e>
     <e><p><l>hesitation<s n="n"/></l><r>braiteoireacht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>heteroclite<s n="adj"/></l><r>mírialta<s n="adj"/></r></p></e>
     <e><p><l>heterogeneous<s n="adj"/></l><r>ilchineálach<s n="adj"/></r></p></e>
@@ -4990,7 +4992,7 @@
     <e><p><l>igniter<s n="n"/></l><r>adhainteoir<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>iguana<s n="n"/></l><r>ioguána<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>iliac<s n="adj"/></l><r>iliach<s n="adj"/></r></p></e>
-    <e v="Gr.Lit"><p><l>Iliad (the)<s n="n"/></l><r>Íliad<s n="n"/></r></p></e>
+    <e v="Gr.Lit"><p><l>Iliad<s n="n"/></l><r>Íliad<s n="n"/></r></p></e>
     <e><p><l>ilium<s n="n"/></l><r>iliam<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ill-assorted<s n="adj"/></l><r>ainmheasctha<s n="adj"/></r></p></e>
     <e><p><l>ill-balanced<s n="adj"/></l><r>míchothrom<s n="adj"/></r></p></e>
@@ -5987,7 +5989,8 @@
     <e><p><l>low-pressure<s n="adj"/></l><r>lagbhrúite<s n="adj"/></r></p></e>
     <e><p><l>low-spirited<s n="adj"/></l><r>lagmheanmnach<s n="adj"/></r></p></e>
     <e r="RL"><p><l>low-spirited<s n="adj"/></l><r>beaguchtúil<s n="adj"/></r></p></e>
-    <e v="Nau"><p><l>loxodromic<s n="adj"/></l><r>fiarsheolta; (seoladh) ar an rumlíne<s n="adj"/></r></p></e>
+    <e v="Nau"><p><l>loxodromic<s n="adj"/></l><r>fiarsheolta<s n="adj"/></r></p></e>
+    <e r="RL" v="Nau"><p><l>loxodromic<s n="adj"/></l><r>(seoladh) ar an rumlíne<s n="adj"/></r></p></e>
     <e><p><l>loy<s n="n"/></l><r>láí<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lubricate<s n="vblex"/></l><r>bealaím<s n="vblex"/></r></p></e>
     <e><p><l>lubrication<s n="n"/></l><r>bealú<s n="n"/><s n="m"/></r></p></e>
@@ -6882,11 +6885,11 @@
     <e><p><l>nopal<s n="n"/></l><r>nópal<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>Nordic<s n="adj"/></l><r>Nordach<s n="adj"/></r></p></e>
     <e><p><l>norm<s n="n"/></l><r>norm<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>North Cape (the)<s n="n"/></l><r>An Rinn Thuaidh<s n="n"/></r></p></e>
+    <e><p><l>North Cape<s n="n"/></l><r>An Rinn Thuaidh<s n="n"/></r></p></e>
     <e><p><l>north-eastern<s n="adj"/></l><r>thoir thuaidh<s n="adj"/></r></p></e>
     <e><p><l>northern<s n="adj"/></l><r>tuaisceartach<s n="adj"/></r></p></e>
     <e><p><l>northerner<s n="n"/></l><r>tuaisceartach<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>North Sea (the)<s n="n"/></l><r>An Mhuir Thuaidh<s n="n"/></r></p></e>
+    <e><p><l>North Sea<s n="n"/></l><r>An Mhuir Thuaidh<s n="n"/></r></p></e>
     <e><p><l>nostoc<s n="n"/></l><r>nostac<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>nostrum<s n="n"/></l><r>bréagleigheas<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>notation<s n="n"/></l><r>nodaireacht<s n="n"/><s n="f"/></r></p></e>
@@ -7475,7 +7478,7 @@
     <e><p><l>pentameter<s n="n"/></l><r>peintiméadar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pentane<s n="n"/></l><r>peantán<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pentasyllabic<s n="adj"/></l><r>cúigshiollach<s n="adj"/></r></p></e>
-    <e><p><l>Pentateuch (the)<s n="n"/></l><r>An Peintiteoch<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>Pentateuch<s n="n"/></l><r>An Peintiteoch<s n="n"/><s n="m"/></r></p></e>
     <e v="Ch"><p><l>pentavalent<s n="adj"/></l><r>cúigfhiúsach<s n="adj"/></r></p></e>
     <e><p><l>Pentecost<s n="n"/></l><r>An Chincís<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>penumbra<s n="n"/></l><r>leathscáil<s n="n"/><s n="f"/></r></p></e>
@@ -8164,7 +8167,8 @@
     <e r="RL"><p><l>pug-nosed<s n="adj"/></l><r>smutach<s n="adj"/></r></p></e>
     <e v="A"><p><l>puissant<s n="adj"/></l><r>ríchumasach<s n="adj"/></r></p></e>
     <e r="RL" v="A"><p><l>puissant<s n="adj"/></l><r>ardchumhachtach<s n="adj"/></r></p></e>
-    <e v="Sp"><p><l>pull ahead<s n="vblex"/></l><r>téim amach chun tosaigh; scoithim an chuid eile<s n="vblex"/></r></p></e>
+    <e v="Sp"><p><l>pull ahead<s n="vblex"/></l><r>téim amach chun tosaigh<s n="vblex"/></r></p></e>
+    <e r="RL" v="Sp"><p><l>pull ahead<s n="vblex"/></l><r>scoithim an chuid eile<s n="vblex"/></r></p></e>
     <e><p><l>pull on<s n="vblex"/></l><r>tarraingím orm<s n="vblex"/></r></p></e>
     <e><p><l>pull-over<s n="n"/></l><r>geansaí<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pulley-block<s n="n"/></l><r>bloc ulóige<s n="n"/><s n="m"/></r></p></e>
@@ -9988,7 +9992,8 @@
     <e><p><l>stannic<s n="adj"/></l><r>stánach<s n="adj"/></r></p></e>
     <e><p><l>stanniferous<s n="adj"/></l><r>stántháirgeach<s n="adj"/></r></p></e>
     <e><p><l>stapler<s n="n"/></l><r>stáplóir<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>star-fish<s n="n"/></l><r>méadail mheárach; crosóg mhara<s n="n"/></r></p></e>
+    <e><p><l>star-fish<s n="n"/></l><r>méadail mheárach<s n="n"/></r></p></e>
+    <e r="RL"><p><l>star-fish<s n="n"/></l><r>crosóg mhara<s n="n"/></r></p></e>
     <e><p><l>starless<s n="adj"/></l><r>gan réalta<s n="adj"/></r></p></e>
     <e><p><l>star-lit<s n="adj"/></l><r>réaltach<s n="adj"/></r></p></e>
     <e><p><l>starry<s n="adj"/></l><r>réaltach<s n="adj"/></r></p></e>
@@ -10821,7 +10826,7 @@
     <e><p><l>thymus<s n="n"/></l><r>tímeas<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>thyroidism<s n="n"/></l><r>tíoróidíocht<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>tiara<s n="n"/></l><r>tiara<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>Tiber (the)<s n="np"/></l><r>An Tibir<s n="np"/><s n="f"/></r></p></e>
+    <e><p><l>Tiber<s n="np"/></l><r>An Tibir<s n="np"/><s n="f"/></r></p></e>
     <e><p><l>tibia<s n="n"/></l><r>tibia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ticket-holder<s n="n"/></l><r>ticéadaí<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tiddler<s n="n"/></l><r>snáthaid mhara<s n="n"/></r></p></e>

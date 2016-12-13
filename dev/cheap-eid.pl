@@ -129,7 +129,10 @@ sub doentry {
             $$single{'gen'} = $1;
         }
         my $first = 1;
-        for my $trg (split(/, ?/, $$item{'trg'})) {
+        for my $trg (split(/[;,] ?/, $$item{'trg'})) {
+            $$single{'trg'} =~ s/^ ?\([^)]*\) ?//;
+            $$single{'trg'} =~ s/ ?\([^)]*\)?$//;
+            $$single{'src'} =~ s/ ?\([^)]*\)?$//;
             $$single{'first'} = $first;
             $$single{'trg'} = $trg;
             writeentry($single);
