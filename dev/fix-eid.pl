@@ -29,6 +29,9 @@ while(<>) {
     s#<label>Déanaim amas</label>#<trg>Déanaim amas</trg>#;
     s#<label>Cinceasú</label> <label>m</label>#<trg>Cinceasú <label>m</label></trg>#;
     s#<trg>dian <noindex>\(<label>to, towards</label>, ar\)</noindex></trg>#<trg>dian</trg> <noindex>(<src>to, towards</src>, <trg>ar</trg>)</noindex>#;
+    s#\(cuid d'inneall</trg>, <trg>slabhra, etc\.\)#(cuid d'inneall, slabhra, etc.)#;
+    s#\(bean f\)#<noindex>(bean <label>f</label>)</noindex>#;
+    s#<trg>Nuachtán <label>m</label> páipéar <label>m</label>#<trg>Nuachtán <label>m</label></trg>, <trg>páipéar <label>m</label>#;
     # Genitive with gender
     s#<label>([mf]) -([^<]*)</label></trg>#<label>$1</label> -$2</trg>#g;
 
@@ -49,6 +52,11 @@ while(<>) {
     s#<label>([^<]*)</label> \(<src>([^<]*)</src>, \[([^<]*)</trg>\)#<label>$1</label></trg> <noindex>(<src>$2</src>, <trg>$3</trg>)</noindex>#g;
     # rejoin pieces of disambiguating context that were split (the second part is *not* a translation)
     s#\(([^<]*)</trg>, <trg>([^<]*)</trg>\.\)\.#($1, $2.)</trg>.#g;
+    # Normalise spaces
+    s!<noindex>\( <label>([^<]*)</label> \)</noindex>!<noindex>(<label>$1</label>)</noindex>!g;
+    s/  */ /g;
+    # full stop after </src> before <label> (in some cases, it looks right)
+    s!</src>\. <label>!</src>, <label>!g;
 
     # Split two combined entries into separate <trg>
     s!<trg>([^ ]*) <label>([mf])</label>([\.,]) ([^ ]*) <label>([mf])</label></trg>!<trg>$1 <label>$2</label></trg>$3 <trg>$4 <label>$5</label></trg>!;
