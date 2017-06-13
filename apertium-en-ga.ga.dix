@@ -32,11 +32,13 @@
     <sdef n="cop" /> 
     <sdef n="pres" /> 
     <sdef n="pers" /> 
-    <sdef n="p3p" /> 
+    <sdef n="p3" /> 
     <sdef n="art" /> 
     <sdef n="def" /> 
     <sdef n="part" /> 
     <sdef n="comp" /> 
+    <sdef n="prn" />
+    <sdef n="obj" />
   </sdefs>
   <pardefs>
 <pardef n="2-hiodrocsaídéfheinil__n">
