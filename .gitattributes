@@ -1,5 +1,6 @@
 * text=auto !eol
 /apertium-en-ga.en-ga.dix -text
 /apertium-en-ga.ga.dix -text
+dev/addlen.pl -text
 dev/cheap-eid.pl -text
 dev/fix-eid.pl -text
