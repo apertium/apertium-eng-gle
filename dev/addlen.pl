@@ -10,17 +10,7 @@ binmode(STDOUT, ":utf8");
 my $pardef = '';
 while(<>) {
 
-    if(/<pardef n="([^"]*)">/) {
-        $pardef = $1;
-    }
-    if(/<\/pardef>/) {
-        print;
-        print "<pardef n=\"${pardef}__len\">\n  <e><par n=\"$pardef\"/><p><l/><r><s n=\"len\"/></p></e>\n</pardef>\n";
-        print "<pardef n=\"${pardef}__ecl\">\n  <e><par n=\"$pardef\"/><p><l/><r><s n=\"ecl\"/></p></e>\n";
-        $pardef = '';
-    }
-    print;
-    if(/<e lm="([^"]*)"><i>([A-ZÁÉÍÓÚa-záéíóú])([^<]*)<\/i><par n="([^"]*)"\/><\/e>/) {
+    if(/<e lm="([^"]*)"><i>([ÁÉÍÓÚáéíóú])([^<]*)<\/i><par n="([^"]*)"\/><\/e>/) {
         my $lm = $1;
         my $first = $2;
         my $rest = $3;
