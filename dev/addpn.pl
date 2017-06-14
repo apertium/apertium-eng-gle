@@ -7,7 +7,7 @@ use utf8;
 binmode(STDIN, ":utf8");
 binmode(STDOUT, ":utf8");
 
-my $par = 'John__np';
+my $par = 'Tubridy__np';
 while(<>) {
     chomp;
     my $first = substr($_, 0, 1);
@@ -17,7 +17,7 @@ while(<>) {
     }
     my $rest = substr($_, 1);
     my $lm = $first . $rest;
-    print "<e lm=\"$lm\"><i>$lm</i><par n=\"${par}__np\"/></e>\n";
+    print "<e lm=\"$lm\"><i>$lm</i><par n=\"${par}\"/></e>\n";
         if ($first =~ /[BCDFGMPSTK]/ && $second ne 'h') {
             print "<e lm=\"$lm\" r=\"LR\"><par n=\"${first}__len\"/><i>$rest</i><par n=\"${par}__len\"/></e>\n";
         }
