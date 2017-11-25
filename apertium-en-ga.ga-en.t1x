@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<transfer default="chunk">
+
+  <section-def-cats>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="prnsubj">
+      <cat-item tags="prn.subj.*"/>
+    </def-cat>
+    <def-cat n="prnobj">
+      <cat-item tags="prn.obj.*"/>
+    </def-cat>
+    <def-cat n="prnitg">
+      <cat-item tags="prn.itg.*"/>
+    </def-cat>
+    <def-cat n="verb">
+      <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="verbbi">
+      <cat-item tags="vbser.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="an">
+      <cat-item lemma="an" tags="det.def.*"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="np"/>
+    </def-attr>
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+      <attr-item tags="adj.sint"/>
+    </def-attr>
+    <def-attr n="a_det">
+      <attr-item tags="det.def"/>
+      <attr-item tags="det.dem"/>
+    </def-attr>
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="mf"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pri"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+    </def-attr>
+    <def-attr n="case">
+      <attr-item tags="nom"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="voc"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="caseFirstWord"/>
+    <def-var n="nbr_chunk"/>
+    <def-var n="pers_chunk"/>
+    <def-var n="verbtype_chunk"/>
+  </section-def-vars>
+
+  <section-def-lists>
+    <def-list n="assume-neuter-object-verbs">
+      <list-item v="déan"/>
+    </def-list>
+  </section-def-lists>
+
+  <section-rules>
+
+    <rule comment="prn">
+      <pattern>
+        <pattern-item n="prnsubj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prnsubj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PRN"/></tag>
+              <tag><clip side="sl" pos="1" part="pers"/></tag>
+              <tag><clip side="sl" pos="1" part="gen"/></tag>
+              <tag><clip side="sl" pos="1" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="prn">
+      <pattern>
+        <pattern-item n="prnobj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prnobj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PRN"/></tag>
+              <tag><clip side="sl" pos="1" part="pers"/></tag>
+              <tag><clip side="sl" pos="1" part="gen"/></tag>
+              <tag><clip side="sl" pos="1" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="prn.obj"/>
+              <clip side="tl" pos="1" part="pers" link-to="2"/>
+              <clip side="tl" pos="1" part="gen" link-to="3"/>
+              <clip side="tl" pos="1" part="nbr" link-to="4"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="prn">
+      <pattern>
+        <pattern-item n="prnitg"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="prnitg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PRN"/></tag>
+              <tag><clip side="sl" pos="1" part="pers"/></tag>
+              <tag><clip side="sl" pos="1" part="gen"/></tag>
+              <tag><clip side="sl" pos="1" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="nom">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP.UNDET"/></tag>
+              <tag><clip side="sl" pos="1" part="gen"/></tag>
+              <tag><clip side="sl" pos="1" part="nbr"/></tag>
+              <tag><clip side="sl" pos="1" part="case"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <clip side="tl" pos="1" part="a_nom"/>
+              <clip side="tl" pos="1" part="nbr"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="nom">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="nom_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP.UNDET"/></tag>
+              <tag><clip side="sl" pos="1" part="gen"/></tag>
+              <tag><clip side="sl" pos="1" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="2" part="lemh"/>
+              <clip side="tl" pos="2" part="a_adj"/>
+              <clip side="tl" pos="2" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <clip side="tl" pos="1" part="a_nom"/>
+              <clip side="tl" pos="1" part="nbr"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="verb">
+      <pattern>
+        <pattern-item n="verb"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip side="tl" pos="1" part="pers"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <let>
+              <var n="pers_chunk"/>
+              <lit-tag v="PD"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip side="sl" pos="1" part="lem"/>
+                <list n="assume-neuter-object-verbs"/>
+              </in>
+            </test>
+            <let>
+              <var n="verbtype_chunk"/>
+              <lit-tag v="OBJNT"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="verbtype_chunk"/>
+              <lit-tag v="OBJNAT"/>
+            </let>
+          </otherwise> 
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip side="tl" pos="1" part="nbr"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <let>
+              <var n="nbr_chunk"/>
+              <lit-tag v="ND"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="VP"/></tag>
+              <tag><clip side="tl" pos="1" part="tense"/></tag>
+              <tag><var n="pers_chunk"/></tag>
+              <tag><var n="nbr_chunk"/></tag>
+              <tag><var n="verbtype_chunk"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="vblex.2.3.4"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="verb">
+      <pattern>
+        <pattern-item n="verbbi"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip side="tl" pos="1" part="pers"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <let>
+              <var n="pers_chunk"/>
+              <lit-tag v="PD"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip side="tl" pos="1" part="nbr"/>
+                <lit v=""/>
+              </equal>
+            </test>
+            <let>
+              <var n="nbr_chunk"/>
+              <lit-tag v="ND"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="bí" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="VP"/></tag>
+              <tag><clip side="tl" pos="1" part="tense"/></tag>
+              <tag><var n="pers_chunk"/></tag>
+              <tag><var n="nbr_chunk"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <lit-tag v="vbser.2.3.4"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="'an' nom adj">
+     <pattern>
+        <pattern-item n="an"/>
+        <pattern-item n="nom"/>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="det_nom_adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP.DET"/></tag>
+              <tag><clip side="sl" pos="2" part="gen"/></tag>
+              <tag><clip side="sl" pos="2" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <clip side="tl" pos="1" part="a_det"/>
+              <clip side="tl" pos="2" part="nbr"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="3" part="lemh"/>
+              <clip side="tl" pos="3" part="a_adj"/>
+              <clip side="tl" pos="3" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip side="tl" pos="2" part="lemh"/>
+              <clip side="tl" pos="2" part="a_nom"/>
+              <clip side="tl" pos="2" part="nbr"/>
+              <clip side="tl" pos="2" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="'an' nom">
+      <pattern>
+        <pattern-item n="an"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="det_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP.DET"/></tag>
+              <tag><clip side="sl" pos="2" part="gen"/></tag>
+              <tag><clip side="sl" pos="2" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="lemh"/>
+              <clip side="tl" pos="1" part="a_det"/>
+              <clip side="tl" pos="2" part="nbr"/>
+              <clip side="tl" pos="1" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip side="tl" pos="2" part="lemh"/>
+              <clip side="tl" pos="2" part="a_nom"/>
+              <clip side="tl" pos="2" part="nbr"/>
+              <clip side="tl" pos="2" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="sent">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="sent" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+              <tag><clip side="sl" pos="1" part="tags"/></tag>
+            </tags>
+            <lu>
+              <clip side="tl" pos="1" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  </section-rules>
+</transfer>

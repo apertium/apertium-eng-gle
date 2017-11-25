@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<interchunk>
+
+  <section-def-cats>
+    <def-cat n="NP">
+      <cat-item tags="NP"/>
+      <cat-item tags="NP.*"/>
+      <cat-item tags="PRN"/>
+      <cat-item tags="PRN.*"/>
+    </def-cat>
+    <def-cat n="VP">
+      <cat-item tags="VP"/>
+      <cat-item tags="VP.*"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="nt"/>
+      <attr-item tags="GD"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+    <def-attr n="chunk">
+      <attr-item tags="NP"/>
+      <attr-item tags="VP"/>
+      <attr-item tags="PRN"/>
+    </def-attr>
+    <def-attr n="tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="cni"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="pri"/>
+    </def-attr>
+    <def-attr n="vb_obj">
+      <attr-item tags="OBJNT"/>
+      <attr-item tags="OBJNAT"/>
+    </def-attr>
+  </section-def-attrs>
+
+  <section-def-vars>
+    <def-var n="paraula"/>
+  </section-def-vars>
+
+  <section-rules>
+
+    <rule comment="REGLA: NP">
+      <pattern>
+        <pattern-item n="NP"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: VP NP NP">
+      <pattern>
+        <pattern-item n="VP"/>
+        <pattern-item n="NP"/>
+        <pattern-item n="NP"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" part="tense"/>
+                <lit-tag v="past"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" part="pers"/>
+              <lit v=""/>
+            </let>
+            <let>
+              <clip pos="1" part="nbr"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" part="vb_obj"/>
+                  <lit-tag v="OBJNT"/>
+                </equal>
+                <equal caseless="yes">
+                  <clip pos="3" part="lem"/>
+                  <lit v="prnobj"/>
+                </equal>
+              </and>
+            </test>
+            <let>
+              <clip pos="3" part="gen"/>
+              <lit-tag v="nt"/>
+            </let>
+            <let>
+              <clip pos="1" part="vb_obj"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" part="chunk"/>
+                <lit-tag v="PRN"/>
+              </equal>
+            </test>
+            <choose>
+              <when>
+                <test>
+                  <and>
+                    <equal>
+                      <clip pos="1" part="tense"/>
+                      <lit-tag v="pres"/>
+                    </equal>
+                    <equal>
+                      <clip pos="2" part="pers"/>
+                      <lit-tag v="p3"/>
+                    </equal>
+                  </and>
+                </test>
+                <let>
+                  <clip pos="1" part="tense"/>
+                  <lit-tag v="pri"/>
+                </let>
+              </when>
+            </choose>
+            <let>
+              <clip pos="1" part="pers"/>
+              <clip pos="2" part="pers"/>
+            </let>
+            <let>
+              <clip pos="1" part="nbr"/>
+              <clip pos="2" part="nbr"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" part="chunk"/>
+                <lit-tag v="NP"/>
+              </equal>
+            </test>
+            <choose>
+              <when>
+                <test>
+                  <equal>
+                    <clip pos="1" part="tense"/>
+                    <lit-tag v="pres"/>
+                  </equal>
+                </test>
+                <let>
+                  <clip pos="1" part="tense"/>
+                  <lit-tag v="pri"/>
+                </let>
+              </when>
+            </choose>
+            <let>
+              <clip pos="1" part="pers"/>
+              <lit-tag v="p3"/>
+            </let>
+            <let>
+              <clip pos="1" part="nbr"/>
+              <clip pos="2" part="nbr"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <equal>
+                  <clip pos="1" part="vb_obj"/>
+                  <lit v=""/>
+                </equal>
+              </not>
+            </test>
+            <let>
+              <clip pos="1" part="vb_obj"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b/>
+          <chunk>
+            <clip pos="3" part="lem"/>
+            <clip pos="3" part="tags"/>
+            <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  </section-rules>
+</interchunk>

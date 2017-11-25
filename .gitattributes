@@ -1,6 +1,10 @@
 * text=auto !eol
 /apertium-en-ga.en-ga.dix -text
 /apertium-en-ga.en-ga.t1x -text
+/apertium-en-ga.en-ga.t3x -text
+/apertium-en-ga.ga-en.t1x -text
+/apertium-en-ga.ga-en.t2x -text
+/apertium-en-ga.ga-en.t3x -text
 /apertium-en-ga.ga.dix -text
 dev/addlen.pl -text
 dev/addpn.pl -text
@@ -13,3 +17,4 @@ dev/nomination.url -text
 dev/public-domain-acts -text
 dev/public-domain-acts-raw -text
 dev/verb-bits -text
+/gael-dis.rle -text
