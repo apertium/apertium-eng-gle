@@ -1,4 +1,5 @@
 * text=auto !eol
+/COPYING -text
 /apertium-en-ga.en-ga.dix -text
 /apertium-en-ga.en-ga.t1x -text
 /apertium-en-ga.en-ga.t3x -text
