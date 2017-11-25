@@ -1,0 +1,709 @@
+
+<dictionary>
+  <alphabet>abcdefghijklmnopqrstuvwxyzáéíóúABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚ</alphabet>
+  <sdefs>
+    <sdef n="num"/>
+    <sdef n="sg"/>
+    <sdef n="prs"/>
+    <sdef n="deg"/>
+    <sdef n="imp"/>
+    <sdef n="pr"/>
+    <sdef n="subj"/>
+    <sdef n="inf"/>
+    <sdef n="emph"/>
+    <sdef n="hpref"/>
+    <sdef n="indir"/>
+    <sdef n="ind"/>
+    <sdef n="num"/>
+    <sdef n="gen"/>
+    <sdef n="past"/>
+    <sdef n="f"/>
+    <sdef n="imp"/>
+    <sdef n="slender"/>
+    <sdef n="sub"/>
+    <sdef n="com"/>
+    <sdef n="fti"/>
+    <sdef n="aut"/>
+    <sdef n="pii"/>
+    <sdef n="dir"/>
+    <sdef n="det"/>
+    <sdef n="op"/>
+    <sdef n="part"/>
+    <sdef n="n"/>
+    <sdef n="p1"/>
+    <sdef n="vblex"/>
+    <sdef n="comp"/>
+    <sdef n="cop"/>
+    <sdef n="cni"/>
+    <sdef n="pri"/>
+    <sdef n="neg"/>
+    <sdef n="m"/>
+    <sdef n="ecl"/>
+    <sdef n="strong"/>
+    <sdef n="itg"/>
+    <sdef n="ifi"/>
+    <sdef n="p2"/>
+    <sdef n="ifs"/>
+    <sdef n="cop"/>
+    <sdef n="ord"/>
+    <sdef n="dep"/>
+    <sdef n="ij"/>
+    <sdef n="weak"/>
+    <sdef n="pl"/>
+    <sdef n="obj"/>
+    <sdef n="len"/>
+    <sdef n="pers"/>
+    <sdef n="dat"/>
+    <sdef n="defart"/>
+    <sdef n="rel"/>
+    <sdef n="vbser"/>
+    <sdef n="cnjadv"/>
+    <sdef n="p3"/>
+    <sdef n="prn"/>
+    <sdef n="adv"/>
+    <sdef n="dem"/>
+    <sdef n="pos"/>
+    <sdef n="qnt"/>
+    <sdef n="adj"/>
+    <sdef n="voc"/>
+    <sdef n="ref"/>
+    <sdef n="imp"/>
+    <sdef n="pres"/>
+    <sdef n="mf"/>
+    <sdef n="sp"/>
+  </sdefs>
+  <pardefs>
+
+    <pardef n="prsubj__prn">
+      <e><p><l>mé</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>mise</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>tú</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>tusa</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>sé</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>seisean</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>sí</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>sise</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>sinn</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>sinne</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>muid</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>muidne</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>muide</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>muidinne</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e><p><l>sibh</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>sibhse</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>sibh-se</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>sibh-seo</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>sibh-sin</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e><p><l>siad</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>siadsan</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>siad-san</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>siad-seo</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>siad-sin</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="probj__prn">
+      <e><p><l>mé</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>mise</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>thú</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>thusa</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>é</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>hé</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><s n="hpref"/></r></p></e>
+      <e><p><l>eisean</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>í</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>hí</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><s n="hpref"/></r></p></e>
+      <e><p><l>ise</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><s n="emph"/></r></p></e>
+      <e><p><l>sinn</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>sinne</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>muid</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>muidne</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>muide</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>muidinne</l><r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e><p><l>sibh</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>sibhse</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>sibh-se</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>sibh-seo</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>sibh-sin</l><r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e><p><l>iad</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>hiad</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="hpref"/></r></p></e>
+      <e><p><l>iadsan</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>iad-san</l><r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
+      <e r="LR"><p><l>iad-seo</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>iad-sin</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
+    </pardef>
+
+    <pardef n="uaireanta/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="bunús/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="i measc/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="anuraidh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="/riamh__adv">
+      <e a="irishfst"><p><l>riamh</l><r>riamh<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>ariamh</l><r>riamh<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ans/in__adv">
+      <e a="irishfst"><p><l>in</l><r>in<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>in</l><r>in<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>an</l><r>in<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>an</l><r>in<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="eadhón/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="le gairid/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="fadó/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cár/__adv.itg">
+      <e a="irishfst"><p><l></l><r><s n="adv.itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="fosta/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="beagnach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="c/homh__adv">
+      <e a="irishfst"><p><l>homh</l><r>homh<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>ho</l><r>homh<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>hó</l><r>homh<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>omh</l><r>homh<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="siar/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="aníos/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="sonraíoch/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="anocht/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="timpeall/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ó dheas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="aniar/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="túisce/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="anall/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="feasta/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="dáirír/e__adv">
+      <e a="irishfst"><p><l>e</l><r>e<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>ibh</l><r>e<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>í</l><r>e<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amú/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="inni/u__adv">
+      <e a="irishfst"><p><l>u</l><r>u<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>ubh</l><r>u<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>bh</l><r>u<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="istoíche/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="isteach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ansiúd/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="taobh istigh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="theas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ans/eo__adv">
+      <e a="irishfst"><p><l>eo</l><r>eo<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>o</l><r>eo<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="thart/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="laistigh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="inné/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="araon/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amhlaidh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="/anois__adv">
+      <e a="irishfst"><p><l>anois</l><r>anois<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>Anois</l><r>anois<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="dá bharr sin/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="eadhon/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="thoir/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="freisin/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="thiar/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="sách/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="tr/á__adv">
+      <e a="irishfst"><p><l>á</l><r>á<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>a</l><r>á<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="iontach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="suas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="go leor/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="síos/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="aneas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cho/íche__adv">
+      <e a="irishfst"><p><l>íche</l><r>íche<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>idhchin</l><r>íche<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>idhche</l><r>íche<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cuíosach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="fiú/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="arís/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>t</l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="thar a bheith/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="damanta/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="conas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="minic/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cá/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+      <e a="irishfst"><p><l>r</l><r><s n="adv"/><s n="itg"/></r></p></e>
+      <e a="irishfst"><p><l>rb</l><r><s n="adv"/><s n="itg"/></r></p></e>
+      <e a="irishfst"><p><l>rbh</l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="thuas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amainiris/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="áfach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="in airde/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="réasúnta/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cineál/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="abhus/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="lastuaidh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amugha/__adv">
+      <e r="LR" a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="diabhalta/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="soir/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="aduaidh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="thíos/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="thall/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="measartha/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="lastuas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amá/rach__adv">
+      <e a="irishfst"><p><l>rach</l><r>rach<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>ireach</l><r>rach<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cheana féin/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="lastoir/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="déanach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ar ais/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="taobh amuigh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="milteannach/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cheana/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="anonn/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="nuig/e__adv">
+      <e a="irishfst"><p><l>e</l><r>e<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l>e</l><r>e<s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l></l><r>e<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l></l><r>e<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="deas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amairinis/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ann/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="tuaidh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="chóir/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="abhaile/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="fiánta/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="aréir/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="arú/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="anuas/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="lasmuigh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="fós/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="breá/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="istigh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="amuigh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ó thuaidh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="a thuilleadh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="ámh/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="chuig/e__adv">
+      <e a="irishfst"><p><l>e</l><r>e<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>is</l><r>e<s n="adv"/></r></p></e>
+      <e r="LR" a="irishfst"><p><l>int</l><r>e<s n="adv"/></r></p></e>
+    </pardef>
+
+    <pardef n="cathain/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="anoir/__adv">
+      <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
+    </pardef>
+
+  </pardefs>
+
+  <section id="main" type="standard">
+    <e><i></i><par n="prsubj__prn"/></e>
+    <e><i></i><par n="probj__prn"/></e>
+    <e lm="lastuas" a="irishfst"><i>lastuas</i><par n="lastuas/__adv"/></e>
+    <e lm="chóir" a="irishfst"><i>chóir</i><par n="chóir/__adv"/></e>
+    <e lm="tuaidh" a="irishfst"><i>tuaidh</i><par n="tuaidh/__adv"/></e>
+    <e lm="abhaile" a="irishfst"><i>abhaile</i><par n="abhaile/__adv"/></e>
+    <e lm="anonn" a="irishfst"><i>anonn</i><par n="anonn/__adv"/></e>
+    <e lm="anois" a="irishfst"><par n="/anois__adv"/></e>
+    <e lm="aréir" a="irishfst"><i>aréir</i><par n="aréir/__adv"/></e>
+    <e lm="measartha" a="irishfst"><i>measartha</i><par n="measartha/__adv"/></e>
+    <e lm="istoíche" a="irishfst"><i>istoíche</i><par n="istoíche/__adv"/></e>
+    <e lm="damanta" a="irishfst"><i>damanta</i><par n="damanta/__adv"/></e>
+    <e lm="a thuilleadh" a="irishfst"><i>a thuilleadh</i><par n="a thuilleadh/__adv"/></e>
+    <e lm="cár" a="irishfst"><i>cár</i><par n="cár/__adv.itg"/></e>
+    <e lm="síos" a="irishfst"><i>síos</i><par n="síos/__adv"/></e>
+    <e lm="arú" a="irishfst"><i>arú</i><par n="arú/__adv"/></e>
+    <e lm="aniar" a="irishfst"><i>aniar</i><par n="aniar/__adv"/></e>
+    <e lm="thiar" a="irishfst"><i>thiar</i><par n="thiar/__adv"/></e>
+    <e lm="cheana féin" a="irishfst"><i>cheana féin</i><par n="cheana féin/__adv"/></e>
+    <e lm="aníos" a="irishfst"><i>aníos</i><par n="aníos/__adv"/></e>
+    <e lm="chuige" a="irishfst"><i>chuig</i><par n="chuig/e__adv"/></e>
+    <e lm="amuigh" a="irishfst"><i>amuigh</i><par n="amuigh/__adv"/></e>
+    <e lm="ámh" a="irishfst"><i>ámh</i><par n="ámh/__adv"/></e>
+    <e lm="cheana" a="irishfst"><i>cheana</i><par n="cheana/__adv"/></e>
+    <e lm="inniu" a="irishfst"><i>inni</i><par n="inni/u__adv"/></e>
+    <e lm="abhus" a="irishfst"><i>abhus</i><par n="abhus/__adv"/></e>
+    <e lm="milteannach" a="irishfst"><i>milteannach</i><par n="milteannach/__adv"/></e>
+    <e lm="conas" a="irishfst"><i>conas</i><par n="conas/__adv"/></e>
+    <e lm="theas" a="irishfst"><i>theas</i><par n="theas/__adv"/></e>
+    <e lm="uaireanta" a="irishfst"><i>uaireanta</i><par n="uaireanta/__adv"/></e>
+    <e lm="chomh" a="irishfst"><i>c</i><par n="c/homh__adv"/></e>
+    <e lm="laistigh" a="irishfst"><i>laistigh</i><par n="laistigh/__adv"/></e>
+    <e lm="thart" a="irishfst"><i>thart</i><par n="thart/__adv"/></e>
+    <e lm="fiú" a="irishfst"><i>fiú</i><par n="fiú/__adv"/></e>
+    <e lm="breá" a="irishfst"><i>breá</i><par n="breá/__adv"/></e>
+    <e lm="cineál" a="irishfst"><i>cineál</i><par n="cineál/__adv"/></e>
+    <e lm="freisin" a="irishfst"><i>freisin</i><par n="freisin/__adv"/></e>
+    <e lm="amhlaidh" a="irishfst"><i>amhlaidh</i><par n="amhlaidh/__adv"/></e>
+    <e lm="soir" a="irishfst"><i>soir</i><par n="soir/__adv"/></e>
+    <e lm="timpeall" a="irishfst"><i>timpeall</i><par n="timpeall/__adv"/></e>
+    <e lm="isteach" a="irishfst"><i>isteach</i><par n="isteach/__adv"/></e>
+    <e lm="eadhón" a="irishfst"><i>eadhón</i><par n="eadhón/__adv"/></e>
+    <e lm="taobh amuigh" a="irishfst"><i>taobh amuigh</i><par n="taobh amuigh/__adv"/></e>
+    <e lm="fós" a="irishfst"><i>fós</i><par n="fós/__adv"/></e>
+    <e lm="choíche" a="irishfst"><i>cho</i><par n="cho/íche__adv"/></e>
+    <e lm="thall" a="irishfst"><i>thall</i><par n="thall/__adv"/></e>
+    <e lm="ann" a="irishfst"><i>ann</i><par n="ann/__adv"/></e>
+    <e lm="istigh" a="irishfst"><i>istigh</i><par n="istigh/__adv"/></e>
+    <e lm="in airde" a="irishfst"><i>in airde</i><par n="in airde/__adv"/></e>
+    <e lm="dáiríre" a="irishfst"><i>dáirír</i><par n="dáirír/e__adv"/></e>
+    <e lm="riamh" a="irishfst"><par n="/riamh__adv"/></e>
+    <e lm="lastoir" a="irishfst"><i>lastoir</i><par n="lastoir/__adv"/></e>
+    <e lm="i measc" a="irishfst"><i>i measc</i><par n="i measc/__adv"/></e>
+    <e lm="amach" a="irishfst"><i>amach</i><par n="amach/__adv"/></e>
+    <e lm="amú" a="irishfst"><i>amú</i><par n="amú/__adv"/></e>
+    <e lm="inné" a="irishfst"><i>inné</i><par n="inné/__adv"/></e>
+    <e lm="feasta" a="irishfst"><i>feasta</i><par n="feasta/__adv"/></e>
+    <e lm="fosta" a="irishfst"><i>fosta</i><par n="fosta/__adv"/></e>
+    <e lm="ansin" a="irishfst"><i>ans</i><par n="ans/in__adv"/></e>
+    <e lm="aduaidh" a="irishfst"><i>aduaidh</i><par n="aduaidh/__adv"/></e>
+    <e lm="cuíosach" a="irishfst"><i>cuíosach</i><par n="cuíosach/__adv"/></e>
+    <e lm="lastuaidh" a="irishfst"><i>lastuaidh</i><par n="lastuaidh/__adv"/></e>
+    <e lm="fiánta" a="irishfst"><i>fiánta</i><par n="fiánta/__adv"/></e>
+    <e lm="ach" a="irishfst"><i>ach</i><par n="ach/__adv"/></e>
+    <e lm="thíos" a="irishfst"><i>thíos</i><par n="thíos/__adv"/></e>
+    <e lm="anseo" a="irishfst"><i>ans</i><par n="ans/eo__adv"/></e>
+    <e lm="nuige" a="irishfst"><i>nuig</i><par n="nuig/e__adv"/></e>
+    <e lm="ó thuaidh" a="irishfst"><i>ó thuaidh</i><par n="ó thuaidh/__adv"/></e>
+    <e lm="diabhalta" a="irishfst"><i>diabhalta</i><par n="diabhalta/__adv"/></e>
+    <e lm="amugha" a="irishfst"><i>amugha</i><par n="amugha/__adv"/></e>
+    <e lm="thoir" a="irishfst"><i>thoir</i><par n="thoir/__adv"/></e>
+    <e lm="anuraidh" a="irishfst"><i>anuraidh</i><par n="anuraidh/__adv"/></e>
+    <e lm="ó dheas" a="irishfst"><i>ó dheas</i><par n="ó dheas/__adv"/></e>
+    <e lm="fadó" a="irishfst"><i>fadó</i><par n="fadó/__adv"/></e>
+    <e lm="túisce" a="irishfst"><i>túisce</i><par n="túisce/__adv"/></e>
+    <e lm="beagnach" a="irishfst"><i>beagnach</i><par n="beagnach/__adv"/></e>
+    <e lm="suas" a="irishfst"><i>suas</i><par n="suas/__adv"/></e>
+    <e lm="lasmuigh" a="irishfst"><i>lasmuigh</i><par n="lasmuigh/__adv"/></e>
+    <e lm="thuas" a="irishfst"><i>thuas</i><par n="thuas/__adv"/></e>
+    <e lm="eadhon" a="irishfst"><i>eadhon</i><par n="eadhon/__adv"/></e>
+    <e lm="sách" a="irishfst"><i>sách</i><par n="sách/__adv"/></e>
+    <e lm="taobh istigh" a="irishfst"><i>taobh istigh</i><par n="taobh istigh/__adv"/></e>
+    <e lm="aneas" a="irishfst"><i>aneas</i><par n="aneas/__adv"/></e>
+    <e lm="thar a bheith" a="irishfst"><i>thar a bheith</i><par n="thar a bheith/__adv"/></e>
+    <e lm="áfach" a="irishfst"><i>áfach</i><par n="áfach/__adv"/></e>
+    <e lm="amainiris" a="irishfst"><i>amainiris</i><par n="amainiris/__adv"/></e>
+    <e lm="cá" a="irishfst"><i>cá</i><par n="cá/__adv"/></e>
+    <e lm="ar ais" a="irishfst"><i>ar ais</i><par n="ar ais/__adv"/></e>
+    <e lm="dá bharr sin" a="irishfst"><i>dá bharr sin</i><par n="dá bharr sin/__adv"/></e>
+    <e lm="go leor" a="irishfst"><i>go leor</i><par n="go leor/__adv"/></e>
+    <e lm="déanach" a="irishfst"><i>déanach</i><par n="déanach/__adv"/></e>
+    <e lm="ansiúd" a="irishfst"><i>ansiúd</i><par n="ansiúd/__adv"/></e>
+    <e lm="cathain" a="irishfst"><i>cathain</i><par n="cathain/__adv"/></e>
+    <e lm="arís" a="irishfst"><i>arís</i><par n="arís/__adv"/></e>
+    <e lm="deas" a="irishfst"><i>deas</i><par n="deas/__adv"/></e>
+    <e lm="sonraíoch" a="irishfst"><i>sonraíoch</i><par n="sonraíoch/__adv"/></e>
+    <e lm="iontach" a="irishfst"><i>iontach</i><par n="iontach/__adv"/></e>
+    <e lm="anall" a="irishfst"><i>anall</i><par n="anall/__adv"/></e>
+    <e lm="amairinis" a="irishfst"><i>amairinis</i><par n="amairinis/__adv"/></e>
+    <e lm="anoir" a="irishfst"><i>anoir</i><par n="anoir/__adv"/></e>
+    <e lm="amárach" a="irishfst"><i>amá</i><par n="amá/rach__adv"/></e>
+    <e lm="minic" a="irishfst"><i>minic</i><par n="minic/__adv"/></e>
+    <e lm="trá" a="irishfst"><i>tr</i><par n="tr/á__adv"/></e>
+    <e lm="siar" a="irishfst"><i>siar</i><par n="siar/__adv"/></e>
+    <e lm="anuas" a="irishfst"><i>anuas</i><par n="anuas/__adv"/></e>
+    <e lm="araon" a="irishfst"><i>araon</i><par n="araon/__adv"/></e>
+    <e lm="réasúnta" a="irishfst"><i>réasúnta</i><par n="réasúnta/__adv"/></e>
+    <e lm="anocht" a="irishfst"><i>anocht</i><par n="anocht/__adv"/></e>
+    <e lm="bunús" a="irishfst"><i>bunús</i><par n="bunús/__adv"/></e>
+    <e lm="le gairid" a="irishfst"><i>le gairid</i><par n="le gairid/__adv"/></e>
+  </section>
+
+</dictionary>
