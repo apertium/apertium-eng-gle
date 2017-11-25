@@ -7,12 +7,11 @@
 /apertium-en-ga.ga-en.t2x -text
 /apertium-en-ga.ga-en.t3x -text
 /apertium-en-ga.ga.dix -text
+dev/addin -text
 dev/addlen.pl -text
 dev/addpn.pl -text
 dev/adj.dix -text
 dev/adv.dix -text
-dev/cheap-eid.pl -text
-dev/fix-eid.pl -text
 dev/iris-oifiguil -text
 dev/nomination.en -text
 dev/nomination.ga -text
