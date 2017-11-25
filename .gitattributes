@@ -1,7 +1,15 @@
 * text=auto !eol
 /apertium-en-ga.en-ga.dix -text
+/apertium-en-ga.en-ga.t1x -text
 /apertium-en-ga.ga.dix -text
 dev/addlen.pl -text
 dev/addpn.pl -text
 dev/cheap-eid.pl -text
 dev/fix-eid.pl -text
+dev/iris-oifiguil -text
+dev/nomination.en -text
+dev/nomination.ga -text
+dev/nomination.url -text
+dev/public-domain-acts -text
+dev/public-domain-acts-raw -text
+dev/verb-bits -text
