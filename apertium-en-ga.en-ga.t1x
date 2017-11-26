@@ -301,6 +301,44 @@
         </when>
         <when>
           <test>
+            <and>
+              <equal>
+                <clip pos="1" side="sl" part="a_det"/>
+                <lit-tag v="rel.aa"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="whose"/>
+              </equal>
+            </and>
+          </test>
+          <let>
+            <var n="det_type"/>
+            <lit-tag v="INDREL"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="a"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="tags"/>
+            <lit-tag v="det.pos.p3.GD.ND"/>
+          </let>
+          <out>
+            <chunk name="indrel">
+              <tags>
+                <tag><lit-tag v="REL"/></tag>
+              </tags>
+              <lu>
+                <lit v="a"/>
+                <lit-tag v="adv"/>
+              </lu>
+            </chunk>
+            <b/>
+          </out>
+        </when>
+        <when>
+          <test>
             <equal>
               <clip pos="1" side="sl" part="a_det"/>
               <lit-tag v="det.dem"/>
