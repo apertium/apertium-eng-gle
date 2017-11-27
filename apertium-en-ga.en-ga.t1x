@@ -168,6 +168,7 @@
       <list-item v="p"/>
     </def-list>
     <def-list n="dat_preps">
+      <list-item v="le"/>
       <list-item v="maidir le"/>
     </def-list>
     <def-list n="gen_preps">
@@ -1578,6 +1579,7 @@
               <chunk name="of" case="caseFirstWord">
                 <tags>
                   <tag><lit-tag v="Prep"/></tag>
+                  <tag><var n="prep_chunk"/></tag>
                 </tags>
                 <lu>
                   <clip pos="1" side="tl" part="whole"/>
@@ -1590,6 +1592,7 @@
               <chunk name="pr" case="caseFirstWord">
                 <tags>
                   <tag><lit-tag v="Prep"/></tag>
+                  <tag><var n="prep_chunk"/></tag>
                 </tags>
                 <lu>
                   <clip pos="1" side="tl" part="whole"/>
