@@ -153,6 +153,7 @@
     <def-var n="caseFirstWord"/>
     <def-var n="det_type"/>
     <def-var n="adjective1"/>
+    <def-var n="adjective2"/>
     <def-var n="inner_mut"/>
     <def-var n="inner_mut1"/>
     <def-var n="gen_chunk"/>
@@ -728,6 +729,26 @@
         </otherwise>
       </choose>
     </def-macro>
+    <def-macro n="comparative_adj2" npar="2">
+      <let>
+        <var n="adjective1"/>
+        <lit v=""/>
+      </let>
+      <let>
+        <var n="adjective2"/>
+        <lit v=""/>
+      </let>
+      <call-macro n="comparative_adj1">
+        <with-param pos="2"/>
+      </call-macro>
+      <let>
+        <var n="adjective2"/>
+        <var n="adjective1"/>
+      </let>
+      <call-macro n="comparative_adj1">
+        <with-param pos="1"/>
+      </call-macro>
+    </def-macro>
     <def-macro n="firstWord" npar="1">
       <choose>
         <when>
@@ -1300,6 +1321,9 @@
         <call-macro n="uimhreacha">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="comparative_adj1">
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="3"/>
           <with-param pos="2"/>
@@ -1346,6 +1370,7 @@
                 </lu>
                 <b pos="2"/>
                 <lu>
+                  <var n="adjective1"/>
                   <clip pos="2" side="tl" part="lemh"/>
                   <clip pos="2" side="tl" part="a_adj"/>
                   <clip pos="2" side="tl" part="gen_no_mf" link-to="3"/>
@@ -1395,6 +1420,7 @@
                 </lu>
                 <b pos="2"/>
                 <lu>
+                  <var n="adjective1"/>
                   <clip pos="2" side="tl" part="lemh"/>
                   <clip pos="2" side="tl" part="a_adj"/>
                   <clip pos="2" side="tl" part="gen_no_mf" link-to="3"/>
@@ -1434,6 +1460,10 @@
         </call-macro>
         <call-macro n="uimhreacha">
           <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="comparative_adj2">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
         </call-macro>
         <call-macro n="f_concord2">
           <with-param pos="4"/>
@@ -1488,6 +1518,7 @@
                 </lu>
                 <b pos="2"/>
                 <lu>
+                  <var n="adjective1"/>
                   <clip pos="2" side="tl" part="lemh"/>
                   <clip pos="2" side="tl" part="a_adj"/>
                   <clip pos="2" side="tl" part="gen_no_mf" link-to="3"/>
@@ -1500,6 +1531,7 @@
                 </lu>
                 <b pos="3"/>
                 <lu>
+                  <var n="adjective2"/>
                   <clip pos="3" side="tl" part="lemh"/>
                   <clip pos="3" side="tl" part="a_adj"/>
                   <clip pos="3" side="tl" part="gen_no_mf" link-to="3"/>
@@ -1549,6 +1581,7 @@
                 </lu>
                 <b pos="2"/>
                 <lu>
+                  <var n="adjective1"/>
                   <clip pos="2" side="tl" part="lemh"/>
                   <clip pos="2" side="tl" part="a_adj"/>
                   <clip pos="2" side="tl" part="gen_no_mf" link-to="3"/>
@@ -1561,6 +1594,7 @@
                 </lu>
                 <b pos="3"/>
                 <lu>
+                  <var n="adjective2"/>
                   <clip pos="3" side="tl" part="lemh"/>
                   <clip pos="3" side="tl" part="a_adj"/>
                   <clip pos="3" side="tl" part="gen_no_mf" link-to="3"/>
