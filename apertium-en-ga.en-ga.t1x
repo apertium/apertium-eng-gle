@@ -38,6 +38,12 @@
       <cat-item tags="prn.subj.*"/>
       <cat-item tags="prn.obj.*"/>
     </def-cat>
+    <def-cat n="verbcj">
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vblex.past"/>
+      <cat-item tags="vblex.past.*"/>
+      <cat-item tags="vblex.pri.*"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -129,6 +135,12 @@
     <def-attr n="prn_type">
       <attr-item tags="subj"/>
       <attr-item tags="obj"/>
+    </def-attr>
+    <def-attr n="tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="past"/>
+      <attr-item tags="cni"/>
     </def-attr>
   </section-def-attrs>
   <section-def-vars>
@@ -1716,6 +1728,29 @@
               <tag><clip pos="1" side="tl" part="prn_type"/></tag>
               <tag><clip pos="1" side="tl" part="pers"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="RULE: VERB">
+      <pattern>
+        <pattern-item n="verbcj"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="verbcj" case="caseFirstWord">
+            <tags>         
+              <tag><lit-tag v="VP"/></tag>
+              <tag><clip pos="1" side="tl" part="tense"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
             </tags>
             <lu>
