@@ -723,7 +723,7 @@
         <lit v="false"/>
       </let>
     </def-macro>
-    <def-macro n="f_concord2" npar="2"><!--1 = main parameter (typically noun); 2 = secondary parameter (typically adj or det) -->
+    <def-macro n="f_concord2" npar="2">
       <let>
         <var n="gen_chunk"/>
         <lit v=""/>
