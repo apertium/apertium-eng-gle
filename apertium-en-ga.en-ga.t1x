@@ -1581,13 +1581,46 @@
         <choose>
           <when>
             <test>
-              <ends-with-list caseless="yes">
+              <in caseless="yes">
                 <clip pos="1" side="tl" part="lem"/>
-                <list n="vowels"/>
-              </ends-with-list>
+                <list n="hpref_preps"/>
+              </in>
             </test>
             <append n="prep_chunk">
-              <lit-tag v="VOWEL_END"/>
+              <lit-tag v="HPREF"/>
+            </append>
+          </when>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="1" side="tl" part="lem"/>
+                <list n="ecl_preps"/>
+              </in>
+            </test>
+            <append n="prep_chunk">
+              <lit-tag v="ECL"/>
+            </append>
+          </when>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="1" side="tl" part="lem"/>
+                <list n="len_preps"/>
+              </in>
+            </test>
+            <append n="prep_chunk">
+              <lit-tag v="LEN"/>
+            </append>
+          </when>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="1" side="tl" part="lem"/>
+                <list n="maybe_len_preps"/>
+              </in>
+            </test>
+            <append n="prep_chunk">
+              <lit-tag v="MAYBE_LEN"/>
             </append>
           </when>
         </choose>
