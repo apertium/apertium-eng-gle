@@ -171,7 +171,7 @@
       <e a="irishfst"><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
-    <pardef n="cár/__adv.itg">
+    <pardef n="cár__adv">
       <e a="irishfst"><p><l></l><r><s n="adv.itg"/></r></p></e>
     </pardef>
 
@@ -607,7 +607,7 @@
     <e lm="istoíche" a="irishfst"><i>istoíche</i><par n="istoíche/__adv"/></e>
     <e lm="damanta" a="irishfst"><i>damanta</i><par n="damanta/__adv"/></e>
     <e lm="a thuilleadh" a="irishfst"><i>a thuilleadh</i><par n="a thuilleadh/__adv"/></e>
-    <e lm="cár" a="irishfst"><i>cár</i><par n="cár/__adv.itg"/></e>
+    <e lm="cár" a="irishfst"><i>cár</i><par n="cár__adv"/></e>
     <e lm="síos" a="irishfst"><i>síos</i><par n="síos/__adv"/></e>
     <e lm="arú" a="irishfst"><i>arú</i><par n="arú/__adv"/></e>
     <e lm="aniar" a="irishfst"><i>aniar</i><par n="aniar/__adv"/></e>

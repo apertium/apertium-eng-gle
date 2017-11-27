@@ -34,9 +34,11 @@ dev/iris-oifiguil -text
 dev/nomination.en -text
 dev/nomination.ga -text
 dev/nomination.url -text
+dev/noun.dix.gz -text svneol=unset#unset
 dev/pr.dix -text
 dev/public-domain-acts -text
 dev/public-domain-acts-raw -text
+dev/testp.dix -text
 dev/verb-bits -text
 /en-ga.prob -text svneol=unset#unset
 /modes.xml -text
