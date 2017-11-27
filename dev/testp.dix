@@ -106,6 +106,7 @@
       <e r="LR"><p><l>chugam-seo</l><r>chuig<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>chugam-sin</l><r>chuig<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>chuig</l><r><a/>chuig<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>chuig</l><r>chuig<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="de__pr">
@@ -174,6 +175,7 @@
       <e r="LR"><p><l>díbh-seo</l><r>de<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>díbh-sin</l><r>de<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>de</l><r><a/>de<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>de</l><r>de<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="as__pr">
@@ -210,6 +212,7 @@
       <e r="LR"><p><l>aisti-seo</l><r>as<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>aisti-sin</l><r>as<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>as</l><r><a/>as<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>as</l><r>as<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="faoi__pr">
@@ -261,6 +264,7 @@
       <e r="LR" v="CU"><p><l>fá-seo</l><r>faoi<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR" v="CU"><p><l>fá-sin</l><r>faoi<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>faoi</l><r><a/>faoi<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>faoi</l><r>faoi<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="le__pr">
@@ -307,6 +311,7 @@
       <e r="LR"><p><l>léithe-seo</l><r>le<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>léithe-sin</l><r>le<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>le</l><r><a/>le<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>le</l><r>le<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="fara__pr">
@@ -343,6 +348,7 @@
       <e r="LR"><p><l>fairis-seo</l><r>fara<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>fairis-sin</l><r>fara<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>fara</l><r><a/>fara<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>fara</l><r>fara<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="ar__pr">
@@ -384,6 +390,7 @@
       <e r="LR"><p><l>orm-seo</l><r>ar<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>orm-sin</l><r>ar<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>ar</l><r><a/>ar<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>ar</l><r>ar<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="trí__pr">
@@ -420,6 +427,7 @@
       <e r="LR"><p><l>tríbh-seo</l><r>trí<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>tríbh-sin</l><r>trí<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>trí</l><r><a/>trí<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>trí</l><r>trí<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="idir__pr">
@@ -436,6 +444,7 @@
       <e r="LR"><p><l>eadrainn</l><r>idir<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>eadrainne</l><r>idir<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
       <e r="RL"><p><l>idir</l><r><a/>idir<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>idir</l><r>idir<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="ó__pr">
@@ -477,6 +486,7 @@
       <e r="LR"><p><l>uaim-seo</l><r>ó<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>uaim-sin</l><r>ó<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>ó</l><r><a/>ó<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>ó</l><r>ó<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="i__pr">
@@ -513,6 +523,7 @@
       <e r="LR"><p><l>ann-seo</l><r>i<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>ann-sin</l><r>i<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>i</l><r><a/>i<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>i<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="roimh__pr">
@@ -554,6 +565,7 @@
       <e r="LR"><p><l>rompu-seo</l><r>roimh<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>rompu-sin</l><r>roimh<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="mf"/><s n="pl"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>roimh</l><r><a/>roimh<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>roimh</l><r>roimh<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="ionsar__pr">
@@ -590,6 +602,7 @@
       <e r="LR"><p><l>ionsorm-seo</l><r>ionsar<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>ionsorm-sin</l><r>ionsar<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>ionsar</l><r><a/>ionsar<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>ionsar</l><r>ionsar<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="ag__pr">
@@ -641,6 +654,7 @@
       <e r="LR"><p><l>a'm-seo</l><r>ag<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>a'm-sin</l><r>ag<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>ag</l><r><a/>ag<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>ag</l><r>ag<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="seach__pr">
@@ -677,6 +691,7 @@
       <e r="LR"><p><l>seachainn</l><r>seach<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>seachainne</l><r>seach<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
       <e r="RL"><p><l>seach</l><r><a/>seach<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>seach</l><r>seach<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="thar__pr">
@@ -713,6 +728,7 @@
       <e r="LR"><p><l>thairsti-seo</l><r>thar<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>thairsti-sin</l><r>thar<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>thar</l><r><a/>thar<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>thar</l><r>thar<s n="pr"/></r></p></e>
     </pardef>
 
     <pardef n="do__pr">
@@ -801,6 +817,7 @@
       <e r="LR"><p><l>dúinn</l><r>do<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>dúinne</l><r>do<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="emph"/></r></p></e>
       <e r="RL"><p><l>do</l><r><a/>do<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>do</l><r>do<s n="pr"/></r></p></e>
     </pardef>
     <pardef n="um__pr">
       <e r="LR"><p><l>umat</l><r>um<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -836,6 +853,7 @@
       <e r="LR"><p><l>uimpi-seo</l><r>um<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>seo<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>uimpi-sin</l><r>um<s n="pr"/><j/>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><j/>sin<s n="det"/><s n="dem"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>um</l><r><a/>um<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>um</l><r>um<s n="pr"/></r></p></e>
     </pardef>
   </pardefs>
 
