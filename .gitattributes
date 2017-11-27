@@ -20,6 +20,7 @@
 /apertium-en-ga.ga-en.t3x -text
 /apertium-en-ga.ga.acx -text
 /apertium-en-ga.ga.dix -text
+/apertium-en-ga.ga.tsx -text
 /apertium-en-ga.post-en.dix -text
 /apertium-en-ga.post-ga.dix -text
 /autogen.sh -text

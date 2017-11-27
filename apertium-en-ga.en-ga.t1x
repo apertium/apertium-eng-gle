@@ -28,6 +28,16 @@
       <cat-item tags="pr"/>
       <cat-item tags="pr.*"/>
     </def-cat>
+    <def-cat n="prnsubj">
+      <cat-item tags="prn.subj.*"/>
+    </def-cat>
+    <def-cat n="prnobj">
+      <cat-item tags="prn.obj.*"/>
+    </def-cat>
+    <def-cat n="prnsubjobj">
+      <cat-item tags="prn.subj.*"/>
+      <cat-item tags="prn.obj.*"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -115,6 +125,10 @@
     </def-attr>
     <def-attr n="pr_type">
       <attr-item tags="cmpd"/>
+    </def-attr>
+    <def-attr n="prn_type">
+      <attr-item tags="subj"/>
+      <attr-item tags="obj"/>
     </def-attr>
   </section-def-attrs>
   <section-def-vars>
@@ -1661,6 +1675,54 @@
             </out>
           </otherwise>
         </choose>
+      </action>
+    </rule>
+    <rule comment="RULE: SUBJECT PRONOUN (I -> mé)">
+      <pattern>
+        <pattern-item n="prnsubj"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="prnsubj" case="caseFirstWord">
+            <tags>         
+              <tag><lit-tag v="NP"/></tag>
+              <tag><clip pos="1" side="tl" part="prn_type"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="RULE: OBJECT PRONOUN (him -> é)">
+      <pattern>
+        <pattern-item n="prnobj"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="prnobj" case="caseFirstWord">
+            <tags>         
+              <tag><lit-tag v="NP"/></tag>
+              <tag><clip pos="1" side="tl" part="prn_type"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
       </action>
     </rule>
   </section-rules>
