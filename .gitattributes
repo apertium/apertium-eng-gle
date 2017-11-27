@@ -1,13 +1,30 @@
 * text=auto !eol
+/AUTHORS -text
 /COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/README.md -text
+/alt.xsl -text
 /apertium-en-ga.en-ga.dix -text
 /apertium-en-ga.en-ga.t1x -text
 /apertium-en-ga.en-ga.t2x -text
 /apertium-en-ga.en-ga.t3x -text
+/apertium-en-ga.en.acx -text
+/apertium-en-ga.en.metadix -text
+/apertium-en-ga.en.tsx -text
 /apertium-en-ga.ga-en.t1x -text
 /apertium-en-ga.ga-en.t2x -text
 /apertium-en-ga.ga-en.t3x -text
+/apertium-en-ga.ga.acx -text
 /apertium-en-ga.ga.dix -text
+/apertium-en-ga.post-en.dix -text
+/apertium-en-ga.post-ga.dix -text
+/autogen.sh -text
+/buscaPar.xsl -text
+/configure.ac -text
 dev/addin -text
 dev/addlen.pl -text
 dev/addpn.pl -text
@@ -21,3 +38,6 @@ dev/pr.dix -text
 dev/public-domain-acts -text
 dev/public-domain-acts-raw -text
 dev/verb-bits -text
+/en-ga.prob -text svneol=unset#unset
+/modes.xml -text
+/principal.xsl -text

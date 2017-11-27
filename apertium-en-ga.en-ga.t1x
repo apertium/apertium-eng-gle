@@ -130,6 +130,9 @@
     <def-var n="post_det"/>
     <def-var n="post_num"/>
     <def-var n="prep_chunk"/>
+    <def-var n="negative"/>
+    <def-var n="EOS"/>
+    <def-var n="paraula1"/>
   </section-def-vars>
   <section-def-lists>
     <def-list n="adv_neg">
@@ -622,16 +625,16 @@
         <lit v=""/>
       </let>
       <call-macro n="determiner">
-        <with-param n="2"/>
-        <with-param n="3"/>
+        <with-param pos="2"/>
+        <with-param pos="3"/>
       </call-macro>
       <let>
         <var n="inner_mut1"/>
         <var n="inner_mut"/>
       </let>
       <call-macro n="determiner">
-        <with-param n="1"/>
-        <with-param n="2"/>
+        <with-param pos="1"/>
+        <with-param pos="2"/>
       </call-macro>
     </def-macro>
     <def-macro n="comparative_adj1" npar="1">
