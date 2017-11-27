@@ -1521,20 +1521,9 @@
         </call-macro>
         <let>
           <var n="prep_chunk"/>
-          <clip pos="1" side="tl" part="pr_type"/>
+          <lit v=""/>
         </let>
         <choose>
-          <when>
-            <test>
-              <in caseless="yes">
-                <clip pos="1" side="tl" part="lem"/>
-                <list n="gen_preps"/>
-              </in>
-            </test>
-            <append n="prep_chunk">
-              <lit-tag v="GEN"/>
-            </append>
-          </when>
           <when>
             <test>
               <in caseless="yes">
@@ -1544,6 +1533,23 @@
             </test>
             <append n="prep_chunk">
               <lit-tag v="DAT"/>
+            </append>
+          </when>
+          <when>
+            <test>
+              <or>
+                <in caseless="yes">
+                  <clip pos="1" side="tl" part="lem"/>
+                  <list n="gen_preps"/>
+                </in>
+                <equal>
+                  <clip pos="1" side="tl" part="pr_type"/>
+                  <lit-tag v="cmpd"/>
+                </equal>
+              </or>
+            </test>
+            <append n="prep_chunk">
+              <lit-tag v="GEN"/>
             </append>
           </when>
         </choose>
