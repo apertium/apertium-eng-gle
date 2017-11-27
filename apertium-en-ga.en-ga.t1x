@@ -26,6 +26,7 @@
     </def-cat>
     <def-cat n="prep">
       <cat-item tags="pr"/>
+      <cat-item tags="pr.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -1498,6 +1499,48 @@
           <var n="post_num"/>
           <lit v=""/>
         </let>
+      </action>
+    </rule>
+    <rule comment="REGLA: prep">
+      <pattern>
+        <pattern-item n="prep"/>
+      </pattern>
+      <action>
+        <call-macro n="firstWord">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="lem"/>
+                <lit v="of"/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="of" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="Prep"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="pr" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="Prep"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
   </section-rules>
