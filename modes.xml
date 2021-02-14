@@ -1,156 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="en-ga" install="yes">
+
+  <!-- eng → gle -->
+
+  <mode name="eng-gle" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
+        <file name="eng-gle.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="en-ga.prob"/>
+        <file name="eng-gle.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-en-ga.en-ga.t1x"/>
-        <file name="en-ga.t1x.bin"/>
-        <file name="en-ga.autobil.bin"/>
+      <program name="lt-proc -b">
+        <file name="eng-gle.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-gle.eng-gle.t1x"/>
+        <file name="eng-gle.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-en-ga.en-ga.t2x"/>
-        <file name="en-ga.t2x.bin"/>
+        <file name="apertium-eng-gle.eng-gle.t2x"/>
+        <file name="eng-gle.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-en-ga.en-ga.t3x"/>
-        <file name="en-ga.t3x.bin"/>
+        <file name="apertium-eng-gle.eng-gle.t3x"/>
+        <file name="eng-gle.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="en-ga.autogen.bin"/>
+        <file name="eng-gle.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="en-ga.autopgen.bin"/>
+        <file name="eng-gle.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="en-ga-anmor">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
-      </program>
-    </pipeline>
-  </mode>
+  <!-- gle → eng -->
 
-  <mode name="en-ga-tagger">
+  <mode name="gle-eng" install="yes" gendebug="yes">
     <pipeline>
-      <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
+      <program name="lt-proc -w">
+        <file name="gle-eng.automorf.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-ga.prob"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="en-ga-pretransfer">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-ga.prob"/>
-      </program>
+      <!--<program name="apertium-tagger -g $2">
+        <file name="gle-eng.prob"/>
+      </program>--> <!-- gle-eng.prob does not exist -->
       <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="en-ga-chunker">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
+      <program name="lt-proc -b">
+        <file name="gle-eng.autobil.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-ga.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-en-ga.en-ga.t1x"/>
-        <file name="en-ga.t1x.bin"/>
-        <file name="en-ga.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="en-ga-interchunk">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-ga.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-en-ga.en-ga.t1x"/>
-        <file name="en-ga.t1x.bin"/>
-        <file name="en-ga.autobil.bin"/>
+      <program name="apertium-transfer -b">
+        <file name="apertium-eng-gle.gle-eng.t1x"/>
+        <file name="gle-eng.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-en-ga.en-ga.t2x"/>
-        <file name="en-ga.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="en-ga-postchunk">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-ga.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-en-ga.en-ga.t1x"/>
-        <file name="en-ga.t1x.bin"/>
-        <file name="en-ga.autobil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-en-ga.en-ga.t2x"/>
-        <file name="en-ga.t2x.bin"/>
+        <file name="apertium-eng-gle.gle-eng.t2x"/>
+        <file name="gle-eng.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-en-ga.en-ga.t3x"/>
-        <file name="en-ga.t3x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="en-ga-generador">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="en-ga.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="en-ga.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-en-ga.en-ga.t1x"/>
-        <file name="en-ga.t1x.bin"/>
-        <file name="en-ga.autobil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-en-ga.en-ga.t2x"/>
-        <file name="en-ga.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-en-ga.en-ga.t3x"/>
-        <file name="en-ga.t3x.bin"/>
+        <file name="apertium-eng-gle.gle-eng.t3x"/>
+        <file name="gle-eng.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="en-ga.autogen.bin"/>
+        <file name="gle-eng.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="gle-eng.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
-
 </modes>
+

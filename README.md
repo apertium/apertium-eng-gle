@@ -1,17 +1,1 @@
-English to Irish
-================
-
-This package requires Apertium. On debian-style systems, such as Ubuntu,
-use:
-
-```
-apt-get install apertium
-```
-
-To compile this package:
-
-```
-./configure
-make
-make install
-```
+README
